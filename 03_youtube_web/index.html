@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html data-cast-api-enabled="true" lang="zh-Hant-TW"><head><style name="www-roboto">@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ACc6CsE.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu51xIIzc.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc9.ttf)format('truetype');}</style><script name="www-roboto">if (document.fonts && document.fonts.load) {document.fonts.load("400 10pt Roboto", "中");document.fonts.load("500 10pt Roboto", "中");}</script><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},info: {}});},now: (window.performance && window.performance.timing &&window.performance.now && window.performance.timing.navigationStart) ?function() {return window.performance.timing.navigationStart +window.performance.now();} :function() {return (new Date()).getTime();},tick: function(l, t, n) {ticks = ytcsi.gt(n).tick;var v = t || ytcsi.now();if (ticks[l]) {ticks['_' + l] = (ticks['_' + l] || [ticks[l]]);ticks['_' + l].push(v);}ticks[l] = v;},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;},setStart: function(s, t, n) {ytcsi.info('yt_sts', s, n);ytcsi.tick('_start', t, n);}};(function(w, d) {ytcsi.setStart('dhs', w.performance ? w.performance.timing.responseStart : null);var isPrerender = (d.visibilityState || d.webkitVisibilityState) == 'prerender';var vName = (!d.visibilityState && d.webkitVisibilityState)? 'webkitvisibilitychange' : 'visibilitychange';if (isPrerender) {ytcsi.info('prerender', 1);var startTick = function() {ytcsi.setStart('dhs');d.removeEventListener(vName, startTick);};d.addEventListener(vName, startTick, false);}if (d.addEventListener) {d.addEventListener(vName, function() {ytcsi.tick('vc');}, false);}function isGecko() {if (!w.navigator || !w.navigator.userAgent) {return false;}var ua = w.navigator.userAgent;return ua.indexOf('Gecko') > 0 &&ua.toLowerCase().indexOf('webkit') < 0 &&ua.indexOf('Edge') < 0 &&ua.indexOf('Trident') < 0 &&ua.indexOf('MSIE') < 0;}if (isGecko()) {var isHidden = (d.visibilityState || d.webkitVisibilityState) == 'hidden';if (isHidden) {ytcsi.tick('vc');}}var slt = function(el, t) {setTimeout(function() {var n = ytcsi.now();el.loadTime = n;if (el.slt) {el.slt();}}, t);};w.__ytRIL = function(el) {if (!el.getAttribute('data-thumb')) {if (w.requestAnimationFrame) {w.requestAnimationFrame(function() {slt(el, 0);});} else {slt(el, 16);}}};})(window, document);</script><script>var ytcfg = {d: function() {return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});},get: function(k, o) {return (k in ytcfg.d()) ? ytcfg.d()[k] : o;},set: function() {var a = arguments;if (a.length > 1) {ytcfg.d()[a[0]] = a[1];} else {for (var k in a[0]) {ytcfg.d()[k] = a[0][k];}}}};</script> <script>ytcfg.set("ROOT_VE_TYPE", 4724);ytcfg.set("EVENT_ID", "zwjVXZDmKMiE1d8PpMSNsA0");</script>
+<script>window.yterr = window.yterr || true;</script>
+<script>
+        (function(){var a={a:"content-snap-width-1",b:"content-snap-width-2",f:"content-snap-width-3"};function f(){var c=[],b;for(b in a)c.push(a[b]);return c}
+function h(c){var b=f().concat(["guide-pinned","show-guide"]),d=b.length,g=[];c.replace(/\S+/g,function(e){for(var k=0;k<d;k++)if(e==b[k])return;g.push(e)});
+return g}
+;function l(c,b,d){var g=document.getElementsByTagName("html")[0],e=h(g.className);c&&1251<=(window.innerWidth||document.documentElement.clientWidth)&&(e.push("guide-pinned"),b&&e.push("show-guide"));d&&(d=(window.innerWidth||document.documentElement.clientWidth)-21-50,1251<=(window.innerWidth||document.documentElement.clientWidth)&&c&&b&&(d-=230),e.push(1262<=d?"content-snap-width-3":1056<=d?"content-snap-width-2":"content-snap-width-1"));g.className=e.join(" ")}
+var m=["yt","www","masthead","sizing","runBeforeBodyIsReady"],n=this||self;m[0]in n||"undefined"==typeof n.execScript||n.execScript("var "+m[0]);for(var p;m.length&&(p=m.shift());)m.length||void 0===l?n[p]&&n[p]!==Object.prototype[p]?n=n[p]:n=n[p]={}:n[p]=l;}).call(this);
+
+      try {window.ytbuffer = {};ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (/(^| )yt-can-buffer( |$)/.test(element.className)) {window.ytbuffer = {bufferedClick: e};element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}
+
+    yt.www.masthead.sizing.runBeforeBodyIsReady(true,true,false);
+  </script>
+<script name="scheduler/scheduler" src="/yts/jsbin/scheduler-vfl3S_KkK/scheduler.js" type="text/javascript"></script>
+<link href="/yts/cssbin/www-core-vflRlRixQ.css" name="www-core" rel="stylesheet"/>
+<link href="/yts/cssbin/player-vflqwou5n/www-player.css" name="player/www-player" rel="stylesheet"/>
+<link href="/yts/cssbin/www-pageframe-vfldKQBmr.css" name="www-pageframe" rel="stylesheet"/>
+<link href="/yts/cssbin/www-guide-vflybhooe.css" name="www-guide" rel="stylesheet"/>
+<title>蔡桃貴 - YouTube</title><link href="https://m.youtube.com/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4" media="handheld" rel="alternate"/><link href="https://m.youtube.com/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4" media="only screen and (max-width: 640px)" rel="alternate"/><meta content="在 YouTube 上盡情享受您喜愛的影片和音樂、上傳原創內容，並與親朋好友和全世界觀眾分享您的影片。" name="description"/><meta content="影片、分享、視訊電話、影像電話、免費、上傳" name="keywords"/><link href="/manifest.json" rel="manifest"/><link href="https://www.youtube.com/opensearch?locale=zh_TW" rel="search" title="YouTube 影片搜尋" type="application/opensearchdescription+xml"/><link href="https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico" rel="shortcut icon" type="image/x-icon"/> <link href="/yts/img/favicon_32-vflOogEID.png" rel="icon" sizes="32x32"/><link href="/yts/img/favicon_48-vflVjB_Qk.png" rel="icon" sizes="48x48"/><link href="/yts/img/favicon_96-vflW9Ec0w.png" rel="icon" sizes="96x96"/><link href="/yts/img/favicon_144-vfliLAfaB.png" rel="icon" sizes="144x144"/><meta content="#ff0000" name="theme-color"/> <link href="/yts/cssbin/www-results-vflGgxB5C.css" name="www-results" rel="stylesheet"/>
+<link href="/yts/cssbin/www-home-c4-vfl182B0f.css" name="www-home-c4" rel="stylesheet"/>
+<style>.exp-invert-logo .hats-logo {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_mini_gray-vflfanGkh.png);width: 65px;height: 15px;}.exp-invert-logo #header:before,.exp-invert-logo .ypc-join-family-header .logo,.exp-invert-logo #footer-logo .footer-logo-icon,.exp-invert-logo #yt-masthead #logo-container .logo,.exp-invert-logo #masthead #logo-container,.exp-invert-logo .admin-masthead-logo a,.exp-invert-logo #yt-sidebar-styleguide-logo #logo {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_small-vflHpzGZm.png);width: 100px;height: 30px;}.exp-invert-logo.inverted-hdpi #header:before,.exp-invert-logo.inverted-hdpi .ypc-join-family-header .logo,.exp-invert-logo.inverted-hdpi #footer-logo .footer-logo-icon,.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo,.exp-invert-logo.inverted-hdpi #masthead #logo-container,.exp-invert-logo.inverted-hdpi .admin-masthead-logo a,.exp-invert-logo.inverted-hdpi #yt-sidebar-styleguide-logo #logo {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_small_2x-vfl4_cFqn.png);background-size: 100px 30px;width: 100px;height: 30px;}.exp-invert-logo.exp-fusion-nav-redesign .masthead-logo-renderer-logo {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo-vflLfk4yD.png);width: 40px;height: 28px;}.exp-invert-logo.inverted-hdpi.exp-fusion-nav-redesign .masthead-logo-renderer-logo {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo_2x-vflXx5Pg3.png);width: 40px;height: 28px;}@media screen and (max-width: 656px) {.exp-invert-logo #yt-masthead #logo-container .logo {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo-vflLfk4yD.png);width: 40px;height: 28px;}.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo_2x-vflXx5Pg3.png);background-size: 40px 28px;width: 40px;height: 28px;}}@media only screen and (min-width: 0px) and (max-width: 498px),only screen and (min-width: 499px) and (max-width: 704px) {.exp-invert-logo.exp-responsive #yt-masthead #logo-container {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo-vflLfk4yD.png);width: 40px;height: 28px;}.exp-invert-logo.inverted-hdpi.exp-responsive #yt-masthead #logo-container {background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo_2x-vflXx5Pg3.png);background-size: 40px 28px;width: 40px;height: 28px;}}.exp-invert-logo #yt-masthead #logo-container .logo-red {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_red-vflZxcSR1.png);width: 132px;height: 30px;}.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo-red {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_red_2x-vflOSHA_n.png);background-size: 132px 30px;width: 132px;height: 30px;}.exp-invert-logo #yt-masthead #logo-container .logo-premium {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_premium-vfltrvziB.png);width: 108px;height: 30px;}.exp-invert-logo.inverted-hdpi #yt-masthead #logo-container .logo-premium {background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_premium_2x-vflxcbz_g.png);background-size: 108px 30px;width: 108px;height: 30px;}.exp-invert-logo .guide-item .guide-video-youtube-red-icon {background: no-repeat url(/yts/img/ringo/hitchhiker/video_youtube_red-vflovGTdz.png);width: 20px;height: 20px;}.exp-invert-logo.inverted-hdpi .guide-item .guide-video-youtube-red-icon {background: no-repeat url(/yts/img/ringo/hitchhiker/video_youtube_red_2x-vflqMdgEM.png);background-size: 20px 20px;width: 20px;height: 20px;}.exp-invert-logo .guide-item:hover .guide-video-youtube-red-icon,.exp-invert-logo .guide-item.guide-item-selected .guide-video-youtube-red-icon {background: no-repeat url(/yts/img/ringo/hitchhiker/video_youtube_red_hover-vflgV4Gv0.png);width: 20px;height: 20px;}.exp-invert-logo.inverted-hdpi .guide-item:hover .guide-video-youtube-red-icon,.exp-invert-logo.inverted-hdpi .guide-item.guide-item-selected .guide-video-youtube-red-icon {background: no-repeat url(/yts/img/ringo/hitchhiker/video_youtube_red_hover_2x-vflYjZHvf.png);background-size: 20px 20px;width: 20px;height: 20px;}.exp-invert-logo li.guide-section h3,.exp-invert-logo li.guide-section h3 a {color: #f00;}.exp-invert-logo a.yt-uix-button-epic-nav-item:hover,.exp-invert-logo a.yt-uix-button-epic-nav-item.selected,.exp-invert-logo a.yt-uix-button-epic-nav-item.yt-uix-button-toggled,.exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected,.exp-invert-logo a.yt-uix-button-epic-nav-item.partially-selected:hover,.exp-invert-logo button.yt-uix-button-epic-nav-item:hover,.exp-invert-logo button.yt-uix-button-epic-nav-item.selected,.exp-invert-logo button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,.exp-invert-logo .epic-nav-item:hover,.exp-invert-logo .epic-nav-item.selected,.exp-invert-logo .epic-nav-item.yt-uix-button-toggled,.exp-invert-logo .epic-nav-item-heading,.exp-invert-logo .yt-gb-shelf-item-thumbtab.yt-gb-selected-shelf-tab::before {border-color: #f00;}.exp-invert-logo .resume-playback-progress-bar,.exp-invert-logo .yt-uix-button-subscribe-branded,.exp-invert-logo .yt-uix-button-subscribe-branded[disabled],.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:hover,.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:active,.exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:focus,.exp-invert-logo .sb-notif-on .yt-uix-button-content,.exp-invert-logo .guide-item.guide-item-selected,.exp-invert-logo .guide-item.guide-item-selected:hover,.exp-invert-logo .guide-item.guide-item-selected .yt-deemphasized-text,.exp-invert-logo .guide-item.guide-item-selected:hover .yt-deemphasized-text {background-color: #f00;}.exp-invert-logo .yt-uix-button-subscribe-branded:hover {background-color: #d90a17;}.exp-invert-logo .yt-uix-button-subscribe-branded.yt-is-buffered,.exp-invert-logo .yt-uix-button-subscribe-branded:active,.exp-invert-logo .yt-uix-button-subscribe-branded.yt-uix-button-toggled,.exp-invert-logo .yt-uix-button-subscribe-branded.yt-uix-button-active,.exp-invert-logo .yt-uix-button-subscribed-branded.external,.exp-invert-logo .yt-uix-button-subscribed-branded.external[disabled],.exp-invert-logo .yt-uix-button-subscribed-branded.external:active,.exp-invert-logo .yt-uix-button-subscribed-branded.external.yt-uix-button-toggled,.exp-invert-logo .yt-uix-button-subscribed-branded.external.yt-uix-button-active {background-color: #a60812;}</style><style>.exp-invert-logo #header:before, .exp-invert-logo .ypc-join-family-header .logo, .exp-invert-logo #footer-logo .footer-logo-icon, .exp-invert-logo #yt-masthead #logo-container .logo, .exp-invert-logo #masthead #logo-container, .exp-invert-logo .admin-masthead-logo a, .exp-invert-logo #yt-sidebar-styleguide-logo #logo { background: no-repeat url(/yts/img/ringo/hitchhiker/logo_small_2x-vfl4_cFqn.png); background-size: 100px 30px; } .exp-invert-logo #yt-masthead #logo-container .logo-red { background: no-repeat url(/yts/img/ringo/hitchhiker/logo_youtube_red_2x-vflOSHA_n.png); background-size: 132px 30px; } @media only screen and (min-width: 0px) and (max-width: 498px), only screen and (min-width: 499px) and (max-width: 704px) { .exp-invert-logo.exp-responsive #yt-masthead #logo-container { background: no-repeat url(/yts/img/ringo/hitchhiker/yt_play_logo_2x-vflXx5Pg3.png); background-size: 40px 28px; } } .guide-sort-container {display: none}</style></head>
+<body class="visibility-logging-enabled ltr exp-invert-logo exp-kevlar-settings exp-mouseover-img exp-responsive exp-search-big-thumbs site-center-aligned site-as-giant-card guide-pinning-enabled appbar-hidden not-nirvana-dogfood delayed-frame-styles-not-in" data-spf-name="other" dir="ltr" id="body">
+<div id="early-body"></div>
+<div id="body-container"><div id="a11y-announcements-container" role="alert"><div id="a11y-announcements-message"></div></div><form action="/logout" method="POST" name="logoutForm"><input name="action_logout" type="hidden" value="1"/></form><div id="masthead-positioner"> <div id="ticker-content">
+</div>
+<div class="clearfix yt-base-gutter" id="yt-masthead-container"> <button class="skip-nav" data-target-id="main" id="a11y-skip-nav" tabindex="3">
+略過導覽功能
+  </button>
+<div id="yt-masthead"><div class="yt-masthead-logo-container"> <button aria-controls="appbar-guide-menu" aria-label="導覽區" class="yt-uix-button yt-uix-button-size-default yt-uix-button-text yt-uix-button-empty yt-uix-button-has-icon appbar-guide-toggle appbar-guide-clickable-ancestor" id="appbar-guide-button" onclick=";return false;" type="button"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-appbar-guide yt-sprite"></span></span></button>
+<div id="appbar-main-guide-notification-container"></div>
+<span id="yt-masthead-logo-fragment"><a class="masthead-logo-renderer yt-uix-sessionlink spf-link" data-sessionlink="itct=CAMQsV4iEwjfkM2tvvjlAhVFK1gKHaLMAVY" href="/" id="logo-container" title="YouTube 首頁"> <span class="logo masthead-logo-renderer-logo yt-sprite" title="YouTube 首頁"></span>
+<span class="content-region">TW</span></a></span></div><div id="yt-masthead-signin"> <a class="yt-uix-button yt-uix-sessionlink yt-uix-button-opacity yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=mhsb" href="//www.youtube.com/upload" id="upload-btn" title="上傳"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-material-upload yt-sprite"></span></span></a>
+<div class="signin-container"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary" href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26action_handle_signin%3Dtrue%26next%3D%252Fresults%253Fsearch_query%253D%2525E8%252594%2525A1%2525E6%2525A1%252583%2525E8%2525B2%2525B4%26hl%3Dzh-TW%26feature%3Dsign_in_button&amp;passive=true&amp;service=youtube&amp;hl=zh-TW&amp;uilel=3" onclick=";window.location.href=this.getAttribute('href');return false;" role="link" type="button"><span class="yt-uix-button-content">登入</span></button> <iframe id="signin-passive" src="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26action_handle_signin%3Dtrue%26next%3D%252Fsignin_passive%26hl%3Dzh-TW%26feature%3Dpassive&amp;passive=true&amp;service=youtube&amp;hl=zh-TW&amp;uilel=3"></iframe>
+</div></div><div id="yt-masthead-content"><form action="/results" class="search-form consolidated-form vve-check" data-clicktracking="CAEQ7VAiEwjQicutvvjlAhVIQvUFHSRiA9Yo9CQ" data-visibility-tracking="CAEQ7VAiEwjQicutvvjlAhVIQvUFHSRiA9Yo9CQ" id="masthead-search" onsubmit="if (document.getElementById('masthead-search-term').value == '') return false;"><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button" dir="ltr" id="search-btn" onclick="if (document.getElementById('masthead-search-term').value == '') return false; document.getElementById('masthead-search').submit(); return false;;return true;" tabindex="2" type="submit"><span class="yt-uix-button-content">搜尋</span></button><div class="masthead-search-terms-border" dir="ltr" id="masthead-search-terms"><input aria-label="搜尋" autocomplete="off" class="search-term masthead-search-renderer-input yt-uix-form-input-bidi" id="masthead-search-term" name="search_query" onkeydown="if (!this.value &amp;&amp; (event.keyCode == 40 || event.keyCode == 32 || event.keyCode == 34)) {this.onkeydown = null; this.blur();}" placeholder="搜尋" tabindex="1" title="搜尋" type="text" value="蔡桃貴"/></div></form></div></div></div>
+<div class="clearfix" id="masthead-appbar-container"><div id="masthead-appbar"><div class="" id="appbar-content"></div></div></div>
+</div><div id="masthead-positioner-height-offset"></div><div id="page-container"><div class="search branded-page-v2-secondary-column-wide no-flex clearfix" id="page"><div class="yt-scrollbar" id="guide"> <div class="appbar-menu appbar-guide-menu-layout appbar-guide-clickable-ancestor yt-uix-scroller yt-uix-tdl" id="appbar-guide-menu" role="navigation">
+<div id="guide-container">
+<div class="guide-module-content yt-scrollbar">
+<ul class="guide-toplevel">
+<li class="guide-section vve-check" data-visibility-tracking="CAsQ5isYACITCKPBza2--OUCFQ1C9QUdHwAEYw==">
+<div class="guide-item-container personal-item">
+<ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CA8QtSwYACITCKPBza2--OUCFQ1C9QUdHwAEYw==" id="what_to_watch-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="what_to_watch" data-serialized-endpoint="0qDduQEREg9GRXdoYXRfdG9fd2F0Y2g%3D" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-system&amp;ved=CAUQtSwYACITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CA8QtSwYACITCKPBza2--OUCFQ1C9QUdHwAEYw==" href="/" title="首頁">
+<span class="yt-valign-container">
+<span class="thumb guide-what-to-watch-icon yt-sprite"></span>
+<span class="display-name no-count">
+<span>
+            首頁
+          </span>
+</span>
+</span>
+</a>
+</li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CA4QtSwYASITCKPBza2--OUCFQ1C9QUdHwAEYw==" id="trending-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="trending" data-serialized-endpoint="0qDduQEMEgpGRXRyZW5kaW5n" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-trending&amp;ved=CAYQtSwYASITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CA4QtSwYASITCKPBza2--OUCFQ1C9QUdHwAEYw==" href="/feed/trending" title="發燒影片">
+<span class="yt-valign-container">
+<span class="thumb guide-trending-icon yt-sprite"></span>
+<span class="display-name no-count">
+<span>
+            發燒影片
+          </span>
+</span>
+</span>
+</a>
+</li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CA0QtSwYAiITCKPBza2--OUCFQ1C9QUdHwAEYw==" id="history-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="history" data-serialized-endpoint="0qDduQELEglGRWhpc3Rvcnk%3D" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-personal&amp;ved=CAcQtSwYAiITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CA0QtSwYAiITCKPBza2--OUCFQ1C9QUdHwAEYw==" href="/feed/history" title="觀看記錄">
+<span class="yt-valign-container">
+<span class="thumb guide-history-icon yt-sprite"></span>
+<span class="display-name no-count">
+<span>
+            觀看記錄
+          </span>
+</span>
+</span>
+</a>
+</li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAwQmbcBGAMiEwijwc2tvvjlAhUNQvUFHR8ABGM=" id="unlimited-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="unlimited" data-serialized-endpoint="0qDduQENEgtTUHVubGltaXRlZA%3D%3D" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;ved=CAgQtSwYAyITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CAwQmbcBGAMiEwijwc2tvvjlAhUNQvUFHR8ABGM=" href="/premium" title="訂閱 YouTube Premium">
+<span class="yt-valign-container">
+<span class="thumb guide-video-youtube-red-icon yt-sprite"></span>
+<span class="display-name no-count">
+<span>
+            訂閱 YouTube Premium
+          </span>
+</span>
+</span>
+</a>
+</li>
+</ul>
+</div>
+<hr class="guide-section-separator"/>
+</li>
+<li class="guide-section vve-check" data-visibility-tracking="CAMQ5isYASITCKPBza2--OUCFQ1C9QUdHwAEYw==">
+<div class="guide-item-container personal-item">
+<h3>
+      YouTube 精選
+    </h3>
+<ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAoQtSwYACITCKPBza2--OUCFQ1C9QUdHwAEYw==" id="UC-9-kyTW8ZkZNDHQJ6FgpwQ-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UC-9-kyTW8ZkZNDHQJ6FgpwQ" data-serialized-endpoint="0qDduQEaEhhVQy05LWt5VFc4WmtaTkRIUUo2Rmdwd1E%3D" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-channel&amp;ved=CAoQtSwYACITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CAoQtSwYACITCKPBza2--OUCFQ1C9QUdHwAEYw==" href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ" title="音樂">
+<span class="yt-valign-container">
+<span class="thumb"> <span class="video-thumb yt-thumb yt-thumb-20">
+<span class="yt-thumb-square">
+<span class="yt-thumb-clip">
+<img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/rIwkIrItTfWFsY87KLI76Kot2sHd6l01xk0nUNn7H59_7u3C5HtYyqE9DIgbneJW1aq1kzCNMg=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+<span class="vertical-align"></span>
+</span>
+</span>
+</span>
+</span>
+<span class="display-name no-count">
+<span>
+            音樂
+          </span>
+</span>
+</span>
+</a>
+</li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAkQtSwYASITCKPBza2--OUCFQ1C9QUdHwAEYw==" id="UCEgdi0XIXXZ-qJOFPf4JSKw-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UCEgdi0XIXXZ-qJOFPf4JSKw" data-serialized-endpoint="0qDduQEaEhhVQ0VnZGkwWElYWFotcUpPRlBmNEpTS3c%3D" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-channel&amp;ved=CAsQtSwYASITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CAkQtSwYASITCKPBza2--OUCFQ1C9QUdHwAEYw==" href="/channel/UCEgdi0XIXXZ-qJOFPf4JSKw" title="運動">
+<span class="yt-valign-container">
+<span class="thumb"> <span class="video-thumb yt-thumb yt-thumb-20">
+<span class="yt-thumb-square">
+<span class="yt-thumb-clip">
+<img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/6sufdqdZGSTWLmE9c6xiYIo0ARye05rxZc2Y1nxvd_0UunOA_H9VHg6gplnwDiaI5zUqhtvb4nM=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+<span class="vertical-align"></span>
+</span>
+</span>
+</span>
+</span>
+<span class="display-name no-count">
+<span>
+            運動
+          </span>
+</span>
+</span>
+</a>
+</li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAgQtSwYAiITCKPBza2--OUCFQ1C9QUdHwAEYw==" id="UCOpNcN46UbXVtpKMrmU4Abg-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UCOpNcN46UbXVtpKMrmU4Abg" data-serialized-endpoint="0qDduQEaEhhVQ09wTmNONDZVYlhWdHBLTXJtVTRBYmc%3D" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-channel&amp;ved=CAwQtSwYAiITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CAgQtSwYAiITCKPBza2--OUCFQ1C9QUdHwAEYw==" href="/gaming" title="遊戲">
+<span class="yt-valign-container">
+<span class="thumb"> <span class="video-thumb yt-thumb yt-thumb-20">
+<span class="yt-thumb-square">
+<span class="yt-thumb-clip">
+<img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/rm2l_kxhQ_-RmFod8s32HHdW38bpgxLEj5ZC7z1zv2ktbT9tfe_XRa9tNTQrOx0AsgqauOzPxSA=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+<span class="vertical-align"></span>
+</span>
+</span>
+</span>
+</span>
+<span class="display-name no-count">
+<span>
+            遊戲
+          </span>
+</span>
+</span>
+</a>
+</li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAcQtSwYAyITCKPBza2--OUCFQ1C9QUdHwAEYw==" id="UCYfdidRxbB8Qhf0Nx7ioOYw-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UCYfdidRxbB8Qhf0Nx7ioOYw" data-serialized-endpoint="0qDduQEaEhhVQ1lmZGlkUnhiQjhRaGYwTng3aW9PWXc%3D" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-channel&amp;ved=CA0QtSwYAyITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CAcQtSwYAyITCKPBza2--OUCFQ1C9QUdHwAEYw==" href="/channel/UCYfdidRxbB8Qhf0Nx7ioOYw" title="新聞">
+<span class="yt-valign-container">
+<span class="thumb"> <span class="video-thumb yt-thumb yt-thumb-20">
+<span class="yt-thumb-square">
+<span class="yt-thumb-clip">
+<img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/_N1K1fAtBGt_q0IZJeYlTyjhcDGdeOaefFKmQ8syNtAK2NbcXTCqQV8qR8G3R3hCegdFHoKfVA=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+<span class="vertical-align"></span>
+</span>
+</span>
+</span>
+</span>
+<span class="display-name no-count">
+<span>
+            新聞
+          </span>
+</span>
+</span>
+</a>
+</li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAYQtSwYBCITCKPBza2--OUCFQ1C9QUdHwAEYw==" id="UC4R8DWoMoI7CAwX8_LjQHig-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UC4R8DWoMoI7CAwX8_LjQHig" data-serialized-endpoint="0qDduQEaEhhVQzRSOERXb01vSTdDQXdYOF9MalFIaWc%3D" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-channel&amp;ved=CA4QtSwYBCITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CAYQtSwYBCITCKPBza2--OUCFQ1C9QUdHwAEYw==" href="/channel/UC4R8DWoMoI7CAwX8_LjQHig" title="直播">
+<span class="yt-valign-container">
+<span class="thumb"> <span class="video-thumb yt-thumb yt-thumb-20">
+<span class="yt-thumb-square">
+<span class="yt-thumb-clip">
+<img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/5HkUAx2SOolanKFGX7Au5O84m4XbzvjpxXowcw2EYjbZmUObb_MzjZiiSDfy3z9ImpC0PCuZIB_dlPnEqQ=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+<span class="vertical-align"></span>
+</span>
+</span>
+</span>
+</span>
+<span class="display-name no-count">
+<span>
+            直播
+          </span>
+</span>
+</span>
+</a>
+</li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAUQtSwYBSITCKPBza2--OUCFQ1C9QUdHwAEYw==" id="UCrpQ4p1Ql_hG8rKXIKM1MOQ-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UCrpQ4p1Ql_hG8rKXIKM1MOQ" data-serialized-endpoint="0qDduQEaEhhVQ3JwUTRwMVFsX2hHOHJLWElLTTFNT1E%3D" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-channel&amp;ved=CA8QtSwYBSITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CAUQtSwYBSITCKPBza2--OUCFQ1C9QUdHwAEYw==" href="/channel/UCrpQ4p1Ql_hG8rKXIKM1MOQ" title="時尚">
+<span class="yt-valign-container">
+<span class="thumb"> <span class="video-thumb yt-thumb yt-thumb-20">
+<span class="yt-thumb-square">
+<span class="yt-thumb-clip">
+<img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/fa62tOt1VQHU7GVsNSuXnFyCAUNOL4w1vP6myxrvDnJaHPlqhnz5rOnq-Tou-rY_vvfn-Vg4Bks=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+<span class="vertical-align"></span>
+</span>
+</span>
+</span>
+</span>
+<span class="display-name no-count">
+<span>
+            時尚
+          </span>
+</span>
+</span>
+</a>
+</li>
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAQQtSwYBiITCKPBza2--OUCFQ1C9QUdHwAEYw==" id="UCzuqhhs6NWbgTzMuM09WKDQ-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="UCzuqhhs6NWbgTzMuM09WKDQ" data-serialized-endpoint="0qDduQEaEhhVQ3p1cWhoczZOV2JnVHpNdU0wOVdLRFE%3D" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-channel&amp;ved=CBAQtSwYBiITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CAQQtSwYBiITCKPBza2--OUCFQ1C9QUdHwAEYw==" href="/channel/UCzuqhhs6NWbgTzMuM09WKDQ" title="360 度影片">
+<span class="yt-valign-container">
+<span class="thumb"> <span class="video-thumb yt-thumb yt-thumb-20">
+<span class="yt-thumb-square">
+<span class="yt-thumb-clip">
+<img alt="" aria-hidden="true" data-thumb="//yt3.ggpht.com/kd79fEXUeoqQgzfIlUK2L-AVHtst6q0Wfe3vC1fsQqutEAbpgT6vmnKF46nIrRrRrr5DVlPZ=s20-c-k-c0xffffffff-no-nd-rj" data-ytimg="1" height="20" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="20"/>
+<span class="vertical-align"></span>
+</span>
+</span>
+</span>
+</span>
+<span class="display-name no-count">
+<span>
+            360 度影片
+          </span>
+</span>
+</span>
+</a>
+</li>
+</ul>
+</div>
+<hr class="guide-section-separator"/>
+</li>
+<li class="guide-section vve-check" data-visibility-tracking="CAEQ5isYAiITCKPBza2--OUCFQ1C9QUdHwAEYw==">
+<div class="guide-item-container personal-item">
+<ul class="guide-user-links yt-uix-tdl yt-box" role="menu">
+<li class="vve-check guide-channel guide-notification-item overflowable-list-item" data-visibility-tracking="CAIQtSwYACITCKPBza2--OUCFQ1C9QUdHwAEYw==" id="guide_builder-guide-item" role="menuitem">
+<a class="guide-item yt-uix-sessionlink yt-valign spf-link" data-external-id="guide_builder" data-serialized-endpoint="0qDduQEREg9GRWd1aWRlX2J1aWxkZXI%3D" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-manage&amp;ved=CBIQtSwYACITCNCJy62--OUCFUhC9QUdJGID1ij0JA" data-visibility-tracking="CAIQtSwYACITCKPBza2--OUCFQ1C9QUdHwAEYw==" href="/feed/guide_builder" title="瀏覽頻道">
+<span class="yt-valign-container">
+<span class="thumb guide-builder-icon yt-sprite"></span>
+<span class="display-name no-count">
+<span>
+            瀏覽頻道
+          </span>
+</span>
+</span>
+</a>
+</li>
+</ul>
+</div>
+<hr class="guide-section-separator"/>
+</li>
+<li class="guide-section guide-header signup-promo">
+<p>
+      登入帳戶即可對影片表示喜歡、發布留言及訂閱頻道。
+    </p>
+<div class="signed-out clearfix" id="guide-builder-promo-buttons">
+<a class="yt-uix-button yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0" href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26action_handle_signin%3Dtrue%26next%3D%252Fresults%253Fsearch_query%253D%2525E8%252594%2525A1%2525E6%2525A1%252583%2525E8%2525B2%2525B4%26hl%3Dzh-TW%26feature%3Dsign_in_promo&amp;passive=true&amp;service=youtube&amp;hl=zh-TW&amp;uilel=3"><span class="yt-uix-button-content">登入</span></a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="hid" id="appbar-guide-notifications">
+<div id="appbar-guide-notification-watch-later-video-added">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >已新增至「稍後觀看」清單</span></span></div>
+    -->
+</div>
+<div id="appbar-guide-notification-watch-later-video-removed">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >從「稍後觀看」中移除</span></span></div>
+    -->
+</div>
+<div id="appbar-guide-notification-subscription">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >已新增訂閱內容</span></span></div>
+    -->
+</div>
+<div id="appbar-guide-notification-unsubscription">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >已取消訂閱</span></span></div>
+    -->
+</div>
+<div id="appbar-guide-notification-playlist-like">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >已儲存至播放清單</span></span></div>
+    -->
+</div>
+<div id="appbar-guide-notification-playlist-unlike">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >已從播放清單中移除</span></span></div>
+    -->
+</div>
+<div id="appbar-guide-notification-playlist-video-added">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >已新增至播放清單</span></span></div>
+    -->
+</div>
+<div id="appbar-guide-notification-playlist-video-removed">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >已從播放清單中移除</span></span></div>
+    -->
+</div>
+<div id="appbar-guide-notification-video-like">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >已加到喜歡的影片</span></span></div>
+    -->
+</div>
+<div id="appbar-guide-notification-video-unlike">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >已從喜歡的影片中移除</span></span></div>
+    -->
+</div>
+<div id="appbar-guide-notification-event-reminder-set">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >您將會收到這個事件的相關提醒。</span></span></div>
+    -->
+</div>
+<div id="appbar-guide-notification-event-reminder-removed">
+<!--
+    <div class="appbar-guide-notification " role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" >已移除事件提醒</span></span></div>
+    -->
+</div>
+</div>
+<div class="hid" id="appbar-guide-item-templates">
+<div id="appbar-guide-item-template-playlist">
+<!--
+        
+  <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-serialized-endpoint="" data-external-id="__ID__" data-visibility-tracking="" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-playlists"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-playlists-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="已儲存至播放清單">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      -->
+</div>
+<div id="appbar-guide-item-template-mix">
+<!--
+        
+  <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-serialized-endpoint="" data-external-id="__ID__" data-visibility-tracking="" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-playlists"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb guide-mix-icon yt-sprite"></span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="已儲存至播放清單">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      -->
+</div>
+<div id="appbar-guide-item-template-channel">
+<!--
+        
+  <li class="vve-check guide-channel guide-notification-item overflowable-list-item show-insertion-notification " id="__ID__-guide-item" 
+ data-visibility-tracking="" role="menuitem">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink    "
+    href="__URL__"
+    title="__TITLE__"
+    data-serialized-endpoint="" data-external-id="__ID__" data-visibility-tracking="" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;feature=g-channel"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">  <span class="video-thumb  yt-thumb yt-thumb-20"
+    >
+    <span class="yt-thumb-square">
+      <span class="yt-thumb-clip">
+        
+  <img onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" height="20" src="__THUMBNAIL_URL__" alt="" width="20" aria-hidden="true" data-ytimg="1" >
+
+        <span class="vertical-align"></span>
+      </span>
+    </span>
+  </span>
+</span>
+        <span class="display-name  no-count">
+          <span>
+            __TITLE__
+          </span>
+        </span>
+    </span>
+  </a>
+
+      <div class="appbar-guide-notification guide-item-insertion-notification" role="alert"><span class="appbar-guide-notification-content-wrapper yt-valign"><span class="appbar-guide-notification-icon yt-sprite"></span><span class="appbar-guide-notification-text-content" aria-label="已新增訂閱內容">__NOTIFICATION_OVERLAY_MESSAGE__</span></span></div>
+  </li>
+
+      -->
+</div>
+</div>
+</div><div class="alerts-wrapper"><div class="content-alignment" id="alerts"> <div class="yt-alert yt-alert-default yt-alert-info" id="yt-lang-alert-container"> <div class="yt-alert-icon">
+<span class="icon master-sprite yt-sprite"></span>
+</div>
+<div class="yt-alert-content" role="alert"> <div class="yt-alert-message" tabindex="0">
+            選擇語言。
+
+    </div>
+</div><div class="yt-alert-buttons"><button aria-label="關閉" class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" data-close-parent-class="yt-alert" onclick=";return false;" type="button"><span class="yt-uix-button-content">關閉</span></button></div><div class="yt-alert-panel"> <div class="clearfix" id="yt-lang-alert-content">
+<div id="default-language-message">
+<div class="yt-lang-alert-controls">
+<a href="//support.google.com/youtube/answer/1738660?hl=zh-TW">瞭解詳情</a><br/>
+<a href="javascript:void(0)" onclick="yt.style.toggle('default-language-message', 'default-language-message-english'); return false;">View this message in English</a>
+</div>
+您目前的 YouTube 語言設為<strong>中文 (繁體)</strong>。
+您可以<a href="javascript:void(0)" onclick="yt.www.picker.displayLang();">在下方變更這項偏好設定</a>。
+    </div>
+<div class="hid" id="default-language-message-english">
+<div class="yt-lang-alert-controls">
+<a href="//support.google.com/youtube/answer/1738660?hl=en">Learn more</a><br/>
+</div>
+      You're viewing YouTube in <strong>Chinese (Taiwan)</strong>.
+        You can <a href="javascript:void(0)" onclick="yt.www.picker.displayLang();">change this preference below</a>.
+    </div>
+</div>
+</div></div>
+</div></div><div id="header">
+</div><div class="off-screen" id="player" role="complementary"><div class="player-height" id="theater-background"></div> <div id="player-mole-container">
+<div class="hid" id="player-unavailable">
+</div>
+<div class="player-width player-height off-screen-target player-api" id="player-api" tabindex="-1"></div>
+<script>if (window.ytcsi) {window.ytcsi.tick("cfg", null, '');}</script>
+<script>var ytplayer = ytplayer || {};ytplayer.config = {"args":{"innertube_api_version":"v1","autoplay":"0","hl":"zh_TW","fexp":"23735347,23744176,23767521,23768780,23788837,23794463,23804281,23836145,23836248,23837040,23837772,23837993,23839597,23842630,23842986,23843508,23843528,23848795,23851876,23853866,23854062,23855912,23855955,23856163,23856474,23856652,23856867,23857014,23857014,23857493,23857851,23857851,23857949,23858139,23858320,23858666,23859803,23859864,24630140,9449243,9471235","c":"WEB","gapi_hint_params":"m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.MEVzAPCznC8.O\/d=1\/ct=zgms\/rs=AHpOoo_iL6i3Fuh5d3bLKRBazYvzpKjkxg\/m=__features__","innertube_api_key":"AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8","cver":"1.20191119.09.00","fflags":"ignore_empty_xhr=true\u0026web_player_sentinel_is_uniplayer=true\u0026player_enable_playback_playlist_change=true\u0026desktop_image_companion_wta_support=true\u0026mweb_cougar_big_controls=true\u0026html5_log_rebuffer_events=0\u0026html5_av1_thresh_hcc=1080\u0026web_gel_timeout_cap=true\u0026html5_progress_fix_fix=true\u0026html5_subsegment_readahead_min_buffer_health_secs_on_timeout=0.1\u0026html5_max_readahead_bandwidth_cap=0\u0026html5_platform_minimum_readahead_seconds=0.0\u0026html5_hdr_separate_keys_support=true\u0026html5_log_playback_rate_change_killswitch=true\u0026html5_allowable_liveness_drift_chunks=2\u0026html5_default_ad_gain=0.5\u0026autoplay_time=8000\u0026html5_quality_cap_min_age_secs=0\u0026html5_av1_thresh_lcc=360\u0026debug_dapper_trace_id=\u0026web_gel_debounce_ms=10000\u0026html5_new_elem_on_hidden=true\u0026html5_gapless_ended_transition_buffer_ms=200\u0026html5_gapless_remove_unstarted_state=true\u0026ad_pod_disable_companion_persist_ads_quality=true\u0026html5_gaplesstransition_error_new_elem=true\u0026html5_manifestless_media_source_duration=3600\u0026fast_autonav_in_background=true\u0026html5_disable_move_pssh_to_moov=true\u0026html5_pause_video_fix=true\u0026kevlar_miniplayer=true\u0026html5_subsegment_readahead_min_load_speed=1.5\u0026html5_autonav_quality_cap=0\u0026enable_overlays_wta=true\u0026mweb_muted_autoplay_animation=shrink\u0026html5_maximum_readahead_seconds=0.0\u0026delay_ads_gvi_call_on_bulleit_living_room_ms=0\u0026html5_fludd_suspend=true\u0026disable_new_pause_state3=true\u0026use_touch_events_for_bulleit_mweb=true\u0026html5_manifestless_interpolate=true\u0026web_use_beacon_api_for_ad_click_server_pings=true\u0026html5_background_cap_idle_secs=60\u0026render_enhanced_overlays_as_ctas_for_desktop_style=unset\u0026html5_probe_primary_delay_base_ms=0\u0026desktop_videowall_companion_wta_support=true\u0026unplugged_tvhtml5_video_preload_on_focus_delay_ms=0\u0026web_player_response_fairplay_config_killswitch=true\u0026kevlar_miniplayer_expand_top=true\u0026html5_live_abr_repredict_fraction=0.0\u0026use_survey_skip_in_0s=true\u0026html5_subsegment_readahead_timeout_secs=2.0\u0026tvhtml5_min_readbehind_secs=20\u0026kevlar_playback_associated_queue=true\u0026bulleit_use_touch_events_for_skip=true\u0026html5_min_upgrade_health=0\u0026enable_kevlar_action_companion_cleanup=true\u0026kevlar_allow_multistep_video_init=true\u0026debug_sherlog_username=\u0026web_player_api_logging_fraction=0.01\u0026player_destroy_old_version=true\u0026html5_disable_non_contiguous=true\u0026bulleit_get_midroll_info_timeout_ms=8000\u0026html5_disable_aac_ac3=true\u0026midroll_notify_time_seconds=5\u0026html5_store_xhr_headers_readable=true\u0026html5_bandwidth_window_size=0\u0026html5_df_downgrade_thresh=0.2\u0026persist_text_on_preview_button=true\u0026html5_probe_secondary_during_timeout_miss_count=2\u0026html5_gapless_no_requests_after_lock=true\u0026kevlar_queue_use_dedicated_list_type=true\u0026html5_streaming_xhr_try_cobalt=true\u0026html5_suspend_loader=true\u0026html5_min_readbehind_cap_secs=60\u0026html5_jumbo_ull_subsegment_readahead_target=1.3\u0026max_resolution_for_white_noise=360\u0026use_new_skip_icon=true\u0026html5_gapless_manage_live_readahead=true\u0026simply_enable_botguard=true\u0026active_view_block_viewable_ping_on_measurable=true\u0026align_ad_to_video_player_lifecycle_for_bulleit=true\u0026html5_gapless_error_check_killswitch=true\u0026fixed_padding_skip_button=true\u0026html5_shrink_live_timestamps=true\u0026web_player_response_overlay_parsing=false\u0026tvhtml5_disable_live_prefetch=true\u0026html5_expanded_max_vss_pings=true\u0026html5_gapless_max_played_ranges=12\u0026html5_peak_shave=true\u0026html5_disable_extra_update_resource=true\u0026set_interstitial_advertisers_question_text=true\u0026release_player_on_abandon_for_bulleit_lr_ads_frontend=true\u0026html5_prefer_audio_only_for_atv=true\u0026kevlar_miniplayer_play_pause_on_scrim=true\u0026enable_ve_tracker_key=true\u0026html5_disable_preserve_reference=true\u0026html5_adaptation_fix=true\u0026html5_media_fullscreen=true\u0026html5_hack_gapless_init=true\u0026html5_enable_4k_hq_enc=true\u0026html5_firefox_ambisonic_opus=true\u0026html5_gapless_ad_byterate_multiplier=1.6\u0026html5_qoe_intercept=\u0026playready_first_play_expiration=-1\u0026ensure_only_one_ads_termination_ping_for_bulleit=true\u0026desktop_player_button_tooltip_with_shortcut=true\u0026web_player_live_monitor_env_killswitch2=true\u0026html5_no_audio_append_cap=true\u0026web_logging_max_batch=100\u0026enable_html5_midroll_tsla_update=true\u0026html5_gl_fps_threshold=0\u0026html5_subsegment_readahead_load_speed_check_interval=0.5\u0026html5_live_low_latency_bandwidth_window=0.0\u0026html5_video_tbd_min_kb=0\u0026live_chunk_readahead=3\u0026preskip_button_style_ads_backend=countdown_next_to_thumbnail\u0026html5_seek_over_discontinuities=true\u0026mdx_enable_privacy_disclosure_ui=true\u0026enable_live_premiere_web_player_indicator=true\u0026html5_deadzone_multiplier=1.0\u0026html5_error_cooldown_in_ms=30000\u0026allow_live_autoplay=true\u0026html5_no_placeholder_rollbacks=true\u0026html5_jumbo_mobile_subsegment_readahead_target=3.0\u0026show_countdown_on_bumper=true\u0026html5_probe_live_using_range=true\u0026show_thumbnail_on_standard=true\u0026html5_player_min_build_cl=-1\u0026html5_live_normal_latency_bandwidth_window=0.0\u0026enable_ypc_clickwrap_on_living_room=true\u0026mweb_native_control_in_faux_fullscreen_shared=true\u0026html5_request_size_padding_secs=3.0\u0026external_fullscreen_with_edu=true\u0026html5_full_gapless_content_resume=true\u0026html5_disable_manifestless_sqless_sync=true\u0026html5_aspect_from_adaptive_format=true\u0026kevlar_frontend_video_list_actions=true\u0026html5_manifestless_synchronized=true\u0026html5_live_ultra_low_latency_bandwidth_window=0.0\u0026hide_preskip=true\u0026enforce_cuerange_priority_on_web=true\u0026html5_post_interrupt_readahead=20\u0026html5_log_promoted_video_ads_as_non_autoplay=true\u0026html5_decode_to_texture_cap=true\u0026html5_hls_min_video_height=0\u0026html5_enable_eac3=true\u0026html5_gapless_seek_tolerance_secs=3.0\u0026enable_mute_ad_endpoint_resolution_on_bulleit=true\u0026html5_streaming_xhr_buffer_mdat=true\u0026html5_restrict_streaming_xhr_on_sqless_requests=true\u0026web_player_ipp_canary_type_for_logging=\u0026html5_incremental_parser_buffer_extra_bytes=16384\u0026show_interstitial_white=true\u0026html5_max_live_dvr_window_plus_margin_secs=46800.0\u0026web_player_show_music_in_this_video_graphic=video_thumbnail\u0026unplugged_tvhtml5_botguard_attestation=true\u0026html5_license_constraint_delay=5000\u0026html5_qoe_user_intent_match_health=true\u0026html5_min_readbehind_secs=0\u0026html5_key_statuses_post_update_session=true\u0026html5_hfr_quality_cap=0\u0026show_interstitial_for_3s=true\u0026html5_probe_primary_failure_factor=4\u0026html5_dont_predict_end_time_in_past=true\u0026html5_stop_video_in_cancel_playback=true\u0026html5_gapless_allow_late_transitions=true\u0026html5_max_av_sync_drift=50\u0026html5_gapless_preloading=true\u0026html5_readahead_ratelimit=3000\u0026html5_source_buffer_attach_delay_time=15000\u0026html5_min_has_advanced=true\u0026allow_poltergust_autoplay=true\u0026html5_incremental_parser_buffer_duration_secs=1.5\u0026disable_legacy_desktop_remote_queue=true\u0026html5_prefer_server_bwe3=true\u0026use_forced_linebreak_preskip_text=true\u0026html5_log_hls_video_height_change_as_format_change=true\u0026html5_inline_video_quality_survey=true\u0026html5_health_to_gel=true\u0026html5_jumbo_ull_nonstreaming_mffa_ms=4000\u0026web_player_music_visualizer_treatment=fake\u0026html5_max_headm_for_streaming_xhr=0\u0026html5_source_buffer_attach_retry_limit=0\u0026html5_av1_tv_killswitch=true\u0026html5_limit_adaptation_requests=true\u0026enable_survey_termination_on_resize=true\u0026send_vss_credential_player_vars_html5=true\u0026html5_request_sizing_multiplier=0.8\u0026html5_streaming_xhr_optimize_lengthless_mp4=true\u0026mweb_enable_custom_control_shared=true\u0026html5_subsegment_readahead_target_buffer_health_secs=0.5\u0026html5_player_autonav_logging=true\u0026postroll_notify_time_seconds=5\u0026html5_background_quality_cap=360\u0026www_for_videostats=true\u0026variable_buffer_timeout_ms=0\u0026html5_sticky_reduces_discount_by=0.0\u0026html5_av1_thresh=720\u0026player_allow_autonav_after_playlist=true\u0026kevlar_autonav_miniplayer_fix=true\u0026kevlar_queue_use_update_api=true\u0026custom_csi_timeline_use_gel=true\u0026use_revamped_survey_design_for_desktop=true\u0026html5_initdata_deep_comparison=true\u0026html5_minimum_readahead_seconds=0.0\u0026skip_ad_button_with_thumbnail=true\u0026hfr_dropped_framerate_fallback_threshold=0\u0026html5_remove_pause=false\u0026html5_ad_timeout_ms=0\u0026html5_hdcp_probing_stream_url=\u0026html5_live_quality_cap=0\u0026html5_av1_thresh_arm=240\u0026desktop_shopping_companion_wta_support=true\u0026dash_manifest_version=5\u0026html5_live_abr_head_miss_fraction=0.0\u0026html5_enable_ac3=true\u0026enable_prefetch_for_postrolls=true\u0026html5_gapless_audio=true\u0026ensure_vis_persists_in_full_screen_for_mweb=true\u0026html5_use_streaming_xhr_abort_support=true\u0026enable_ad_pod_specific_ui=true\u0026html5_time_based_consolidation_ms=0\u0026html5_pseudo_gapless=true\u0026ensure_only_one_resolved_midroll_response_on_web=true\u0026web_player_response_playback_tracking_parsing=true\u0026html5_disable_subscribe_new_vis=true\u0026html5_subsegment_readahead_seek_latency_fudge=0.5\u0026desktop_action_companion_wta_support=true\u0026html5_default_quality_cap=0\u0026html5_subsegment_readahead_min_buffer_health_secs=0.25\u0026html5_hls_initial_bitrate=0\u0026forced_brand_precap_duration_ms=2000\u0026enable_eviction_protection_for_bulleit=true\u0026bulleit_use_video_end_cuerange_for_completion=true\u0026html5_ignore_background_dfd=true\u0026html5_request_size_max_secs=31\u0026html5_gapless_disable_preload_at_finish=true\u0026html5_enable_embedded_player_visibility_signals=true\u0026html5_delay_initial_loading=true\u0026variable_load_timeout_ms=0\u0026sdk_ad_prefetch_time_seconds=-1\u0026html5_ignore_start_seconds_for_ads_killswitch=true\u0026pass_biscotti_id_in_header_ajax=true\u0026web_player_watch_next_response=true\u0026html5_desktop_vr180_allow_panning=true\u0026enable_client_deferred_full_screen_filtering_for_mweb_phones=true\u0026set_interstitial_start_button=true\u0026web_player_live_monitor_env_killswitch=true\u0026visibility_error_html_dump_sample_rate=0.01\u0026html5_ignore_bad_bitrates=true\u0026live_fresca_v2=true\u0026html5_unrewrite_timestamps=true","is_html5_mobile_device":false,"cr":"TW","enablejsapi":"1","host_language":"zh-TW","innertube_context_client_version":"1.20191119.09.00"},"assets":{"js":"\/yts\/jsbin\/player_ias-vflss95Jx\/zh_TW\/base.js","css":"\/yts\/cssbin\/player-vflqwou5n\/www-player.css"},"attrs":{"id":"movie_player"}};ytplayer.load = function() {yt.player.Application.create("player-api", ytplayer.config);ytplayer.config.loaded = true;};</script>
+<div class="video-mole mole-collapsed hid" id="watch-queue-mole"><div class="watch-playlist player-height" id="watch-queue"><div class="main-content"><div class="watch-queue-header"><div class="watch-queue-info"><div class="watch-queue-info-icon"><span class="tv-queue-list-icon yt-sprite"></span></div><h3 class="watch-queue-title">候播清單</h3><h3 class="tv-queue-title">候播清單</h3><span class="tv-queue-details"></span></div><div class="watch-queue-control-bar control-bar-button"><div class="watch-queue-mole-info"><div class="watch-queue-control-bar-icon"><span class="watch-queue-icon yt-sprite"></span></div><div class="watch-queue-title-container"><span class="watch-queue-count"></span><span class="watch-queue-title">候播清單</span><span class="tv-queue-title">候播清單</span></div></div> <span class="dark-overflow-action-menu">
+<button aria-expanded="false" aria-haspopup="true" aria-label="候播清單操作項目" class="flip control-bar-button yt-uix-button yt-uix-button-dark-overflow-action-menu yt-uix-button-size-default yt-uix-button-has-icon no-icon-markup yt-uix-button-empty" onclick=";return false;" type="button"><span class="yt-uix-button-arrow yt-sprite"></span><ul aria-haspopup="true" class="watch-queue-menu yt-uix-button-menu yt-uix-button-menu-dark-overflow-action-menu hid" role="menu"><li role="menuitem"><span class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" data-action="remove-all" onclick=";return false;">全部移除</span></li><li role="menuitem"><span class="watch-queue-menu-choice overflow-menu-choice yt-uix-button-menu-item" data-action="disconnect" onclick=";return false;">中斷連線</span></li></ul></button>
+</span>
+<div class="watch-queue-controls">
+<button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button prev-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" onclick=";return false;" title="上一部影片" type="button"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-prev yt-sprite"></span></span></button>
+<button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button play-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" onclick=";return false;" title="播放" type="button"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-play yt-sprite"></span></span></button>
+<button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button pause-watch-queue-button yt-uix-button-opacity yt-uix-tooltip hid yt-uix-tooltip" onclick=";return false;" title="暫停" type="button"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-pause yt-sprite"></span></span></button>
+<button class="yt-uix-button yt-uix-button-size-default yt-uix-button-empty yt-uix-button-has-icon control-bar-button next-watch-queue-button yt-uix-button-opacity yt-uix-tooltip yt-uix-tooltip" onclick=";return false;" title="下一部影片" type="button"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-watch-queue-next yt-sprite"></span></span></button>
+</div>
+</div><div class="autoplay-dismiss-bar fade-out"><span class="autoplay-dismiss-title-label">即將播放下一部影片</span><span><button class="yt-uix-button yt-uix-button-size-default autoplay-dismiss-button yt-uix-tooltip" onclick=";return false;" title="停止" type="button"><span class="yt-uix-button-content">停止</span></button></span></div></div><div class="watch-queue-items-container yt-scrollbar-dark yt-scrollbar"><div class="yt-uix-scroller playlist-videos-list"><ol class="watch-queue-items-list" data-scroll-action="yt.www.watchqueue.loadThumbnails"> <p class="yt-spinner">
+<span class="yt-spinner-img yt-sprite" title="正在載入圖示"></span>
+<span class="yt-spinner-message">
+載入中…
+    </span>
+</p>
+</ol><div class="autoplay-control-container yt-uix-scroller-scroll-unit hid"> <div class="autoplay-control-bar">
+<label class="autoplay-label" for="autoplay-toggle-id"></label>
+<label class="yt-uix-form-input-checkbox-container yt-uix-form-input-container yt-uix-form-input-paper-toggle-container"><input class="yt-uix-form-input-checkbox" id="autoplay-toggle-id" type="checkbox"/><div class="yt-uix-form-input-paper-toggle-bg yt-uix-form-input-paper-toggle-bar"></div><div class="yt-uix-form-input-paper-toggle-bg yt-uix-form-input-paper-toggle-button"></div></label>
+</div>
+</div><div class="up-next-item-container hid"></div></div></div></div> <div class="hid">
+<div id="watch-queue-title-msg">
+候播清單
+    </div>
+<div id="tv-queue-title-msg">候播清單</div>
+<div id="watch-queue-count-msg">
+__count__/__total__
+    </div>
+<div id="watch-queue-loading-template">
+<!--
+          <p class="yt-spinner ">
+        <span title="正在載入圖示" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+載入中…
+    </span>
+  </p>
+
+      -->
+</div>
+</div>
+</div></div>
+<div class="hid" id="player-playlist">
+</div>
+</div>
+<div class="clear"></div>
+</div><div class="content-alignment" id="content" role="main">
+<div class="branded-page-v2-container branded-page-base-bold-titles branded-page-v2-container-flex-width">
+<div class="branded-page-v2-col-container">
+<div class="branded-page-v2-col-container-inner">
+<div class="branded-page-v2-primary-col">
+<div class="yt-card clearfix">
+<div class="branded-page-v2-primary-col-header-container branded-page-v2-primary-column-content">
+</div>
+<div class="branded-page-v2-body branded-page-v2-primary-column-content" id="">
+<noscript>
+<div class="yt-alert yt-alert-default yt-alert-error"> <div class="yt-alert-icon">
+<span class="icon master-sprite yt-sprite"></span>
+</div>
+<div class="yt-alert-content" role="alert"> <div class="yt-alert-message" tabindex="0">
+            您好，您可能關閉了 JavaScript。若要查看正確的搜尋結果，請重新啟用 JavaScript。
+    </div>
+</div><div class="yt-alert-buttons"><button aria-label="關閉" class="yt-uix-button yt-uix-button-size-default yt-uix-button-close close yt-uix-close" data-close-parent-class="yt-alert" onclick=";return false;" type="button"><span class="yt-uix-button-content">關閉</span></button></div></div>
+</noscript>
+<div id="results">
+<ol class="section-list" id="section-list-896904">
+<li class="branded-page-v2-subnav-container branded-page-gutter-padding"><div class="search-header yt-uix-expander yt-uix-expander-collapsed"><div class="filter-top"><div class="filter-bar-container"><div class="filter-button-container"><button aria-label="搜尋篩選器" class="yt-uix-button yt-uix-button-size-small yt-uix-button-default filter-button yt-uix-expander-head" data-button-action="" data-button-menu-id="some-nonexistent-menu" data-button-toggle="true" onclick=";return false;" type="button"><span class="yt-uix-button-content">篩選器</span><span class="yt-uix-button-arrow yt-sprite"></span></button></div><div class="filter-crumb-spacer"></div></div></div><div class="yt-uix-expander-body" id="filter-dropdown"><div class="filter-col"><h4 class="filter-col-title">上傳日期</h4><ul><li><a aria-label="搜尋「過去 1 小時」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CC4Qk3UYACITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIIAQ%253D%253D" title="搜尋「過去 1 小時」"><span class="filter-text filter-ghost">過去 1 小時</span></a></li><li><a aria-label="搜尋「今天」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CC0Qk3UYASITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIIAg%253D%253D" title="搜尋「今天」"><span class="filter-text filter-ghost">今天</span></a></li><li><a aria-label="搜尋「本週」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CCwQk3UYAiITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIIAw%253D%253D" title="搜尋「本週」"><span class="filter-text filter-ghost">本週</span></a></li><li><a aria-label="搜尋「本月」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CCsQk3UYAyITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIIBA%253D%253D" title="搜尋「本月」"><span class="filter-text filter-ghost">本月</span></a></li><li><a aria-label="搜尋「今年」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CCoQk3UYBCITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIIBQ%253D%253D" title="搜尋「今年」"><span class="filter-text filter-ghost">今年</span></a></li></ul></div><div class="filter-col"><h4 class="filter-col-title">類型</h4><ul><li><a aria-label="搜尋「視訊」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CCgQk3UYACITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIQAQ%253D%253D" title="搜尋「視訊」"><span class="filter-text filter-ghost">視訊</span></a></li><li><a aria-label="搜尋「頻道」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CCcQk3UYASITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIQAg%253D%253D" title="搜尋「頻道」"><span class="filter-text filter-ghost">頻道</span></a></li><li><a aria-label="搜尋「播放清單」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CCYQk3UYAiITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIQAw%253D%253D" title="搜尋「播放清單」"><span class="filter-text filter-ghost">播放清單</span></a></li><li><a aria-label="搜尋「電影」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CCUQk3UYAyITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIQBA%253D%253D" title="搜尋「電影」"><span class="filter-text filter-ghost">電影</span></a></li><li><a aria-label="搜尋「節目」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CCQQk3UYBCITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIQBQ%253D%253D" title="搜尋「節目」"><span class="filter-text filter-ghost">節目</span></a></li></ul></div><div class="filter-col"><h4 class="filter-col-title">片長</h4><ul><li><a aria-label="搜尋「短片 (不到 4 分鐘)」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CCIQk3UYACITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIYAQ%253D%253D" title="搜尋「短片 (不到 4 分鐘)」"><span class="filter-text filter-ghost">短片 (不到 4 分鐘)</span></a></li><li><a aria-label="搜尋「長片 (超過 20 分鐘)」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CCEQk3UYASITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIYAg%253D%253D" title="搜尋「長片 (超過 20 分鐘)」"><span class="filter-text filter-ghost">長片 (超過 20 分鐘)</span></a></li></ul></div><div class="filter-col"><h4 class="filter-col-title">屬性</h4><ul><li><a aria-label="搜尋「直播」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CB8Qk3UYACITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgJAAQ%253D%253D" title="搜尋「直播」"><span class="filter-text filter-ghost">直播</span></a></li><li><a aria-label="搜尋「4K」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CB4Qk3UYASITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgJwAQ%253D%253D" title="搜尋「4K」"><span class="filter-text filter-ghost">4K</span></a></li><li><a aria-label="搜尋「HD 高畫質」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CB0Qk3UYAiITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIgAQ%253D%253D" title="搜尋「HD 高畫質」"><span class="filter-text filter-ghost">HD 高畫質</span></a></li><li><a aria-label="搜尋「字幕」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CBwQk3UYAyITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIoAQ%253D%253D" title="搜尋「字幕」"><span class="filter-text filter-ghost">字幕</span></a></li><li><a aria-label="搜尋「創用 CC」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CBsQk3UYBCITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgIwAQ%253D%253D" title="搜尋「創用 CC」"><span class="filter-text filter-ghost">創用 CC</span></a></li><li><a aria-label="搜尋「360°」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CBoQk3UYBSITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgJ4AQ%253D%253D" title="搜尋「360°」"><span class="filter-text filter-ghost">360°</span></a></li><li><a aria-label="搜尋「VR180」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CBkQk3UYBiITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgPQAQE%253D" title="搜尋「VR180」"><span class="filter-text filter-ghost">VR180</span></a></li><li><a aria-label="搜尋「3D」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CBgQk3UYByITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgI4AQ%253D%253D" title="搜尋「3D」"><span class="filter-text filter-ghost">3D</span></a></li><li><a aria-label="搜尋「高動態範圍」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CBcQk3UYCCITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgPIAQE%253D" title="搜尋「高動態範圍」"><span class="filter-text filter-ghost">高動態範圍</span></a></li><li><a aria-label="搜尋「位置」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CBYQk3UYCSITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgO4AQE%253D" title="搜尋「位置」"><span class="filter-text filter-ghost">位置</span></a></li><li><a aria-label="搜尋「已購買」" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CBUQk3UYCiITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=EgJIAQ%253D%253D" title="搜尋「已購買」"><span class="filter-text filter-ghost">已購買</span></a></li></ul></div><div class="filter-col"><h4 class="filter-col-title">排序依據</h4><ul><li><span class="filter filter-selected filter-sort" title="按關聯性排序"><span aria-label="按關聯性排序" class="filter-text">關聯性</span></span></li><li><a aria-label="按上傳日期排序" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CBIQk3UYASITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=CAI%253D" title="按上傳日期排序"><span class="filter-text filter-ghost">上傳日期</span></a></li><li><a aria-label="按觀看次數排序" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CBEQk3UYAiITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=CAM%253D" title="按觀看次數排序"><span class="filter-text filter-ghost">觀看次數</span></a></li><li><a aria-label="按評分排序" class="filter yt-uix-sessionlink spf-link" data-sessionlink="itct=CBAQk3UYAyITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=CAE%253D" title="按評分排序"><span class="filter-text filter-ghost">評分</span></a></li></ul></div></div></div></li>
+<li>
+<ol class="item-section" id="item-section-257557">
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="u7-yu2yWxmk" data-visibility-tracking="CF0Q3DAYACITCN-Qza2--OUCFUUrWAodoswBVkDpjNvkttfs37sB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CF0Q3DAYACITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=u7-yu2yWxmk"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="https://i.ytimg.com/vi/u7-yu2yWxmk/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLADpUdKbl70htz0FMr7rMJ_B7VogA" width="246"/>
+<span aria-hidden="true" class="video-time">38:16</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="u7-yu2yWxmk" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-708422" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CF0Q3DAYACITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=u7-yu2yWxmk" rel="spf-prefetch" title="【環島挑戰號#6】蔡桃貴X蔡阿嘎X妞妞TV X 彼得爸與蘇珊媽：台中100人寶寶爬行大賽！">【環島挑戰號#6】蔡桃貴X蔡阿嘎X妞妞TV X 彼得爸與蘇珊媽：台中100人寶寶爬行大賽！</a><span class="accessible-description" id="description-id-708422"> - 播放時間：38:16。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CF0Q3DAYACITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>23 小時前</li><li>觀看次數：330,104次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">哈哈~ 這一集剪接讓大家久等了!!!超壯觀的100人寶寶爬行大賽~ 爬起來!!!! ▻ 訂閱蔡阿嘎Life頻道：<a class="yt-uix-redirect-link" dir="ltr" href="http://pics.ee/AGaLife" rel="nofollow" target="_blank" title="http://pics.ee/AGaLife">http://pics.ee/AGaLife</a> ▻ 訂閱 ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list"><li class="yt-badge-item"><span class="yt-badge">新影片</span></li></ul> </div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="8g_cVtkaySI" data-visibility-tracking="CFwQ3DAYASITCN-Qza2--OUCFUUrWAodoswBVkCikuvI7Yr3h_IB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFwQ3DAYASITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=8g_cVtkaySI"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="https://i.ytimg.com/vi/8g_cVtkaySI/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLCXlr_VSUnXYqGImfc8X1kS-vs1sQ" width="246"/>
+<span aria-hidden="true" class="video-time">1:13</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="8g_cVtkaySI" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-696565" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFwQ3DAYASITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=8g_cVtkaySI" rel="spf-prefetch" title="【蔡桃貴】姑姑的照片好恐怖，是「鬼」！(1Y3M27D)">【蔡桃貴】姑姑的照片好恐怖，是「鬼」！(1Y3M27D)</a><span class="accessible-description" id="description-id-696565"> - 播放時間：1:13。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFwQ3DAYASITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtSSBoYwD-yEkhvNdH0Zy3w">蔡桃貴 蔡阿嘎二伯's Family</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>3 天前</li><li>觀看次數：594,580次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">訂閱<b>蔡桃貴</b>：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/TsaiGray2018" rel="nofollow" target="_blank" title="https://pse.is/TsaiGray2018">https://pse.is/TsaiGray2018</a> ▻ <b>蔡桃貴</b>Instagram：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayIG" rel="nofollow" target="_blank" title="https://pse.is/GrayIG">https://pse.is/GrayIG</a> ▻ <b>蔡桃貴</b>FaceBook：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayFB" rel="nofollow" target="_blank" title="https://pse.is/GrayFB">https://pse.is/GrayFB</a> ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list"><li class="yt-badge-item"><span class="yt-badge">新影片</span></li></ul> </div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-channel vve-check clearfix yt-uix-tile" data-visibility-tracking="CFoQ2jAYAiITCN-Qza2--OUCFUUrWAodoswBVg=="><div class="yt-lockup-thumbnail"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFoQ2jAYAiITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtSSBoYwD-yEkhvNdH0Zy3w"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="//yt3.ggpht.com/a/AGF-l7-IRjS5wMAduGRNO5I_ivL49qoPjWFTeDOBUg=s176-c-k-c0x00ffffff-no-rj-mo" width="138"/>
+</span></div></a></div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-941324" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFoQ2jAYAiITCN-Qza2--OUCFUUrWAodoswBVg" dir="ltr" href="/channel/UCtSSBoYwD-yEkhvNdH0Zy3w" title="蔡桃貴 蔡阿嘎二伯's Family">蔡桃貴 蔡阿嘎二伯's Family</a><span class="accessible-description" id="description-id-941324"> - 頻道</span></h3><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>175 部影片</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">哥哥姐姐們好！我是<b>蔡桃貴</b>，二伯是我阿母，蔡阿嘎是我阿爸。我在2018/7/21出生，雖然生日跟阿爸同一天，但是...我比他帥多了！</div><div class="yt-lockup-badges"><ul class="yt-badge-list"><li class="yt-badge-item"><span class="yt-badge">頻道</span></li></ul> <span class="yt-uix-button-subscription-container"><button aria-busy="false" aria-live="polite" class="yt-uix-button yt-uix-button-size-default yt-uix-button-subscribe-unbranded yt-uix-button-has-icon no-icon-markup yt-uix-subscription-button yt-can-buffer yt-uix-servicelink vve-check" data-channel-external-id="UCtSSBoYwD-yEkhvNdH0Zy3w" data-clicktracking="itct=CFsQmysiEwjfkM2tvvjlAhVFK1gKHaLMAVYyBnNlYXJjaA" data-href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fnext%3D%252Fchannel%252FUCtSSBoYwD-yEkhvNdH0Zy3w%26hl%3Dzh-TW%26feature%3Dsubscribe%26app%3Ddesktop%26action_handle_signin%3Dtrue%26continue_action%3DQUFFLUhqbl9POE43NnN2TzBtYmdQSkxWbVd6UjRFaWxNQXxBQ3Jtc0trUGwzWjFkMzFVbTNPSVdpVGNycFl4NnBiR3A2eURxQ0Fra1hBcTZ2dzBGblZGN0w5Z242ajJORVhkelk0a2NlNFVOcHdrX2FrVy1ORTdubUxfLTJZS3NVS0IyTUplbmt5NjhDX05sMUx2YW9WdGVYcjdFWk9oc21SZ0hBRFdpODFGT004VUxVd0RjX2p1SFN0OHdqOFZNaFJ5ZGdWWWI3QlJTSXVaV2FBSV9xR0N4bU9YNkFLUUVhTVl1eE5rMDM5ZTF3RUI%253D&amp;passive=true&amp;service=youtube&amp;hl=zh-TW&amp;uilel=3" data-params="EgIIDRgA" data-servicelink="CFsQmysiEwjfkM2tvvjlAhVFK1gKHaLMAVYyBnNlYXJjaA" data-style-type="unbranded" data-visibility-tracking="CFsQmysiEwjfkM2tvvjlAhVFK1gKHaLMAVYyBnNlYXJjaA" onclick=";return false;" type="button"><span class="yt-uix-button-content"><span aria-label="訂閱" class="subscribe-label">訂閱</span><span aria-label="取消訂閱" class="subscribed-label">已訂閱</span><span aria-label="取消訂閱" class="unsubscribe-label">取消訂閱</span></span></button></span> </div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="e0ltku7mLvo" data-visibility-tracking="CFkQ3DAYAyITCN-Qza2--OUCFUUrWAodoswBVkD63Zj3rrLbpHs="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFkQ3DAYAyITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=e0ltku7mLvo"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="https://i.ytimg.com/vi/e0ltku7mLvo/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLDd2JaoTCkTl5UUikX-DmEz5bpipQ" width="246"/>
+<span aria-hidden="true" class="video-time">4:52</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="e0ltku7mLvo" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-719267" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFkQ3DAYAyITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=e0ltku7mLvo" rel="spf-prefetch" title="【蔡阿嘎新手爸媽日記#47】明星臉照片考驗，蔡桃貴會叫山下智久爸爸嗎？">【蔡阿嘎新手爸媽日記#47】明星臉照片考驗，蔡桃貴會叫山下智久爸爸嗎？</a><span class="accessible-description" id="description-id-719267"> - 播放時間：4:52。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFkQ3DAYAyITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>6 天前</li><li>觀看次數：545,744次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">哈哈哈~小孩子是不會說謊的，拿跟蔡阿嘎、二伯長很像的明星臉照片，給<b>蔡桃貴</b>指認！他會對著山下智久叫爸爸嗎？ ▻ 訂閱蔡阿 ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list"><li class="yt-badge-item"><span class="yt-badge">新影片</span></li></ul> </div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="Xc1GnL_CmNg" data-visibility-tracking="CFgQ3DAYBCITCN-Qza2--OUCFUUrWAodoswBVkDYsYr-y9PR5l0="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFgQ3DAYBCITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=Xc1GnL_CmNg"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="https://i.ytimg.com/vi/Xc1GnL_CmNg/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLBzzhsQ46ITXq4Ld87PJsXOdjdkww" width="246"/>
+<span aria-hidden="true" class="video-time">3:55</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="Xc1GnL_CmNg" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-982793" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFgQ3DAYBCITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=Xc1GnL_CmNg" rel="spf-prefetch" title="【票選】蔡桃貴弟(妹)的外號，由你決定！蔡波能、蔡單、蔡奇亞、蔡桃湯？【蔡阿嘎 二伯's 二寶日記】">【票選】蔡桃貴弟(妹)的外號，由你決定！蔡波能、蔡單、蔡奇亞、蔡桃湯？【蔡阿嘎 二伯's 二寶日記】</a><span class="accessible-description" id="description-id-982793"> - 播放時間：3:55。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFgQ3DAYBCITCN-Qza2--OUCFUUrWAodoswBVg" href="/user/kyoko38">蔡阿嘎</a> <span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" title="已驗證"></span></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>1 週前</li><li>觀看次數：735,984次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">哈哈~感謝大家踴躍的票選，「蔡波能」最後票數最多脫穎而出，獲勝啦!!! ▻ 看票選統計結果：<a class="yt-uix-redirect-link" dir="ltr" href="https://ppt.cc/fRFHIx" rel="nofollow" target="_blank" title="https://ppt.cc/fRFHIx">https://ppt.cc/fRFHIx</a> 你喜歡哪一個外號?</div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="1LsyEp0uQ5w" data-visibility-tracking="CFcQ3DAYBSITCN-Qza2--OUCFUUrWAodoswBVkCch7npqcLM3dQB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFcQ3DAYBSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=1LsyEp0uQ5w"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="https://i.ytimg.com/vi/1LsyEp0uQ5w/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLBHovhNwollUbCxBWEvL68u-BUpQg" width="246"/>
+<span aria-hidden="true" class="video-time">0:41</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="1LsyEp0uQ5w" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-920254" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFcQ3DAYBSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=1LsyEp0uQ5w" rel="spf-prefetch" title="【蔡桃貴】超可愛接龍大師，蔡阿嘎說「桃」自己就接「貴」！(1Y3M13D)">【蔡桃貴】超可愛接龍大師，蔡阿嘎說「桃」自己就接「貴」！(1Y3M13D)</a><span class="accessible-description" id="description-id-920254"> - 播放時間：0:41。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFcQ3DAYBSITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtSSBoYwD-yEkhvNdH0Zy3w">蔡桃貴 蔡阿嘎二伯's Family</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>2 週前</li><li>觀看次數：1,066,901次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">訂閱<b>蔡桃貴</b>：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/TsaiGray2018" rel="nofollow" target="_blank" title="https://pse.is/TsaiGray2018">https://pse.is/TsaiGray2018</a> ▻ <b>蔡桃貴</b>Instagram：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayIG" rel="nofollow" target="_blank" title="https://pse.is/GrayIG">https://pse.is/GrayIG</a> ▻ <b>蔡桃貴</b>FaceBook：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayFB" rel="nofollow" target="_blank" title="https://pse.is/GrayFB">https://pse.is/GrayFB</a> ...</div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="YSWx6YBlIAA" data-visibility-tracking="CFYQ3DAYBiITCN-Qza2--OUCFUUrWAodoswBVkCAwJSDmL3skmE="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFYQ3DAYBiITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=YSWx6YBlIAA"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/YSWx6YBlIAA/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLDcQDy7s8Wv06qGn7m1bO4mu8b0TQ" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">3:17</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="YSWx6YBlIAA" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-143682" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFYQ3DAYBiITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=YSWx6YBlIAA" rel="spf-prefetch" title="【蔡桃貴成長日記#40】一歲後打針，哭到大崩潰啦！ 前一秒還很興奮....">【蔡桃貴成長日記#40】一歲後打針，哭到大崩潰啦！ 前一秒還很興奮....</a><span class="accessible-description" id="description-id-143682"> - 播放時間：3:17。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFYQ3DAYBiITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>2 週前</li><li>觀看次數：823,242次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">哈哈哈~ 一歲後的<b>蔡桃貴</b>開始意識到，坐在看診椅上是要看醫生，醫生一靠近就崩潰了!!!但一離開椅子就秒停，應該也沒有很痛吧， ...</div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="XCwEPTzmLfU" data-visibility-tracking="CFUQ3DAYByITCN-Qza2--OUCFUUrWAodoswBVkD125jn04eBllw="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFUQ3DAYByITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=XCwEPTzmLfU"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/XCwEPTzmLfU/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLD0xlRpqCJS2u3CJypZhz3AfoVm8A" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">17:31</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="XCwEPTzmLfU" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-409277" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFUQ3DAYByITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=XCwEPTzmLfU" rel="spf-prefetch" title="【蔡桃貴成長日記#38】美國行Vlog，連外國人都被萌翻！">【蔡桃貴成長日記#38】美國行Vlog，連外國人都被萌翻！</a><span class="accessible-description" id="description-id-409277"> - 播放時間：17:31。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFUQ3DAYByITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>4 週前</li><li>觀看次數：812,816次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">人生第一次出國就挑戰美國的<b>蔡桃貴</b>，當然要拍個Vlog跟大家分享啊!!!!來看看嬰兒的旅遊影片，都在幹嘛? 哈哈哈▻ 訂閱蔡阿嘎Life ...</div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="KrgICIxbNjM" data-visibility-tracking="CFQQ3DAYCCITCN-Qza2--OUCFUUrWAodoswBVkCz7OziiIGC3Co="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFQQ3DAYCCITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=KrgICIxbNjM"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/KrgICIxbNjM/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLCBDVR-Z_IbcW1G09QzA5Ifjz-4DQ" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">2:41</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="KrgICIxbNjM" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-596727" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFQQ3DAYCCITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=KrgICIxbNjM" rel="spf-prefetch" title="【蔡桃貴100份桌曆免費送】歡慶IG突破100萬粉絲！蔡阿嘎要來送2020年桌曆啦！【蔡阿嘎】">【蔡桃貴100份桌曆免費送】歡慶IG突破100萬粉絲！蔡阿嘎要來送2020年桌曆啦！【蔡阿嘎】</a><span class="accessible-description" id="description-id-596727"> - 播放時間：2:41。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFQQ3DAYCCITCN-Qza2--OUCFUUrWAodoswBVg" href="/user/kyoko38">蔡阿嘎</a> <span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" title="已驗證"></span></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>4 天前</li><li>觀看次數：299,192次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">訂閱蔡阿嘎三個頻道+底下留言，100份<b>蔡桃貴</b>2020年桌曆，免費送給大家!!!(詳細抽獎方法如下) ▻ 訂閱蔡阿嘎Life ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list"><li class="yt-badge-item"><span class="yt-badge">新影片</span></li></ul> </div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="E8Hec5hZyBY" data-visibility-tracking="CFMQ3DAYCSITCN-Qza2--OUCFUUrWAodoswBVkCWkOfCuc734BM="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFMQ3DAYCSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=E8Hec5hZyBY"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/E8Hec5hZyBY/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLC-qr0-y8I2VA9UZuHCrTocJXZWBg" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">1:14</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="E8Hec5hZyBY" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-173085" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFMQ3DAYCSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=E8Hec5hZyBY" rel="spf-prefetch" title="【蔡桃貴】哇！哇！哇！看到什麼都好驚訝的浮誇大師！(1Y3M21D)">【蔡桃貴】哇！哇！哇！看到什麼都好驚訝的浮誇大師！(1Y3M21D)</a><span class="accessible-description" id="description-id-173085"> - 播放時間：1:14。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFMQ3DAYCSITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtSSBoYwD-yEkhvNdH0Zy3w">蔡桃貴 蔡阿嘎二伯's Family</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>1 週前</li><li>觀看次數：501,392次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">訂閱<b>蔡桃貴</b>：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/TsaiGray2018" rel="nofollow" target="_blank" title="https://pse.is/TsaiGray2018">https://pse.is/TsaiGray2018</a> ▻ <b>蔡桃貴</b>Instagram：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayIG" rel="nofollow" target="_blank" title="https://pse.is/GrayIG">https://pse.is/GrayIG</a> ▻ <b>蔡桃貴</b>FaceBook：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayFB" rel="nofollow" target="_blank" title="https://pse.is/GrayFB">https://pse.is/GrayFB</a> ...</div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="CTymmkQ2wps" data-visibility-tracking="CFIQ3DAYCiITCN-Qza2--OUCFUUrWAodoswBVkCbhduhpNOpngk="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFIQ3DAYCiITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=CTymmkQ2wps"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/CTymmkQ2wps/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLBUDk44Esp_ovFjyBrqrjMcPRe2Pg" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">4:08</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="CTymmkQ2wps" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-135698" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFIQ3DAYCiITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=CTymmkQ2wps" rel="spf-prefetch" title="【蔡桃貴成長日記#33】1歲就超會講話！簡直神童啊！">【蔡桃貴成長日記#33】1歲就超會講話！簡直神童啊！</a><span class="accessible-description" id="description-id-135698"> - 播放時間：4:08。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFIQ3DAYCiITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>2 個月前</li><li>觀看次數：1,788,237次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">才剛滿一歲的<b>蔡桃貴</b>就超會講話了耶~ 奶音真的太可愛了!!!!! 哈哈哈哈▻ 訂閱蔡阿嘎Life頻道：<a class="yt-uix-redirect-link" dir="ltr" href="http://pics.ee/AGaLife" rel="nofollow" target="_blank" title="http://pics.ee/AGaLife">http://pics.ee/AGaLife</a> ▻ 訂閱 ...</div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="oHlII0GsxSw" data-visibility-tracking="CFEQ3DAYCyITCN-Qza2--OUCFUUrWAodoswBVkCsirONtITSvKAB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFEQ3DAYCyITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=oHlII0GsxSw"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/oHlII0GsxSw/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLCtBqbKSnIS4mfvkzyrMe8dZwQ3XQ" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">5:42</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="oHlII0GsxSw" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-869026" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFEQ3DAYCyITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=oHlII0GsxSw" rel="spf-prefetch" title="【桃貴安親班#1：英文課】蔡桃貴X阿滴X滴妹，有辦法學會一個英文單字嗎？">【桃貴安親班#1：英文課】蔡桃貴X阿滴X滴妹，有辦法學會一個英文單字嗎？</a><span class="accessible-description" id="description-id-869026"> - 播放時間：5:42。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFEQ3DAYCyITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>3 週前</li><li>觀看次數：967,915次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">哈哈哈~全新單元桃貴安親班!!!每集都會邀請一位YouTuber來當<b>蔡桃貴</b>的安親班老師，第一集的阿滴、滴妹，能否順利完成「教會<b>蔡桃貴</b> ...</div></div></div></div></li>
+<li><div class="feed-item-container browse-list-item-container yt-section-hover-container compact-shelf shelf-item branded-page-box vve-check clearfix" data-visibility-tracking="CEUQ3BwYDCITCN-Qza2--OUCFUUrWAodoswBVg=="><div class="feed-item-dismissable"><div class="shelf-title-table"><div class="shelf-title-row"><h2 class="branded-page-module-title shelf-title-cell"><span class="branded-page-module-title-text">與搜尋內容相關</span></h2><div class="menu-container shelf-title-cell"></div></div></div><div class="vertical-shelf"><div class="yt-uix-expander yt-uix-expander-collapsed"><ul class="shelf-content"><li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="yL1MM66Gjyk" data-visibility-tracking="CFAQ3DAYACITCN-Qza2--OUCFUUrWAodoswBVkCpnpr0uobT3sgB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFAQ3DAYACITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=yL1MM66Gjyk"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/yL1MM66Gjyk/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLCTzC45N2EJbKvrQ76ClIbrsvOFew" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">10:44</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="yL1MM66Gjyk" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-53777" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CFAQ3DAYACITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=yL1MM66Gjyk" rel="spf-prefetch" title="一日桃貴保母挑戰! 完全沒有被滴妹打動的辣個男人!?【真滴想看 EP.3】♥ 滴妹">一日桃貴保母挑戰! 完全沒有被滴妹打動的辣個男人!?【真滴想看 EP.3】♥ 滴妹</a><span class="accessible-description" id="description-id-53777"> - 播放時間：10:44。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CFAQ3DAYACITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCGpNjY0Xq2GJLXh4OOX1LOA">滴妹</a> <span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" title="已驗證"></span></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>3 週前</li><li>觀看次數：1,658,810次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">終於讓我有機會可以照顧到小桃貴啦!~~~ 整個就是一直被萌翻，真的太可愛了！（阿姨微笑記得要訂閱我喔▷ <a class="yt-uix-redirect-link" dir="ltr" href="http://bit.ly/subcrown" rel="nofollow" target="_blank" title="http://bit.ly/subcrown">http://bit.ly/subcrown</a> 滴 ...</div></div></div></div></li><li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="-cU-Hv8Zf5I" data-visibility-tracking="CE8Q3DAYASITCN-Qza2--OUCFUUrWAodoswBVkCS_-X478PP4vkB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CE8Q3DAYASITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=-cU-Hv8Zf5I"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/-cU-Hv8Zf5I/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLA9mMbAbBhYRrTc1CET2K2vyrM_Dg" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">8:10</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="-cU-Hv8Zf5I" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-583557" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CE8Q3DAYASITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=-cU-Hv8Zf5I" rel="spf-prefetch" title="【彩蛋蔡桃貴】YouTuber們的童年照大猜謎！大家看到蔡桃貴的反應是？(蔡阿嘎的懷舊星期五)">【彩蛋蔡桃貴】YouTuber們的童年照大猜謎！大家看到蔡桃貴的反應是？(蔡阿嘎的懷舊星期五)</a><span class="accessible-description" id="description-id-583557"> - 播放時間：8:10。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CE8Q3DAYASITCN-Qza2--OUCFUUrWAodoswBVg" href="/user/kyoko38">蔡阿嘎</a> <span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" title="已驗證"></span></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>3 個月前</li><li>觀看次數：1,151,571次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">哈哈哈~這應該算是<b>蔡桃貴</b>第一次跟好多好多YouTuber們的合作影片，沒想到竟然大家都猜得到！(其他人的影片在下方有連結喔) ...</div></div></div></div></li><li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="K_TnTI9TQJg" data-visibility-tracking="CE4Q3DAYAiITCN-Qza2--OUCFUUrWAodoswBVkCYgc36yOm5-is="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CE4Q3DAYAiITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=K_TnTI9TQJg"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/K_TnTI9TQJg/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLDHFUMmt4Fi8FpWKn65U0Y2ZGL3Jw" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">5:23</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="K_TnTI9TQJg" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-834859" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CE4Q3DAYAiITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=K_TnTI9TQJg" rel="spf-prefetch" title="【蔡阿嘎新手爸媽日記#42】蔡桃貴要抱假人頭，才睡得著！超怪癖好！">【蔡阿嘎新手爸媽日記#42】蔡桃貴要抱假人頭，才睡得著！超怪癖好！</a><span class="accessible-description" id="description-id-834859"> - 播放時間：5:23。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CE4Q3DAYAiITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>2 個月前</li><li>觀看次數：739,567次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr"><b>蔡桃貴</b>什麼安撫巾或是娃娃都不要！只愛搓頭髮才睡得著，只好讓叔叔阿姨陪他睡覺了...哈哈哈哈▻ 訂閱蔡阿嘎Life ...</div></div></div></div></li><li class="collapsable"><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="qkKSFt0x_0Q" data-visibility-tracking="CE0Q3DAYAyITCN-Qza2--OUCFUUrWAodoswBVkDE_sfp7cKkoaoB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CE0Q3DAYAyITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=qkKSFt0x_0Q"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/qkKSFt0x_0Q/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLCwBXl37WFwkUU1eFgTbvSypVRpGw" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">5:32</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="qkKSFt0x_0Q" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-634947" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CE0Q3DAYAyITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=qkKSFt0x_0Q" rel="spf-prefetch" title="【蔡桃貴成長日記#29】挑食大作戰！試吃五大魔王！(feat.苦瓜.青椒.茄子.山藥.芥藍菜)">【蔡桃貴成長日記#29】挑食大作戰！試吃五大魔王！(feat.苦瓜.青椒.茄子.山藥.芥藍菜)</a><span class="accessible-description" id="description-id-634947"> - 播放時間：5:32。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CE0Q3DAYAyITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>4 個月前</li><li>觀看次數：1,363,951次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">號稱什麼都吃的吃貨<b>蔡桃貴</b>，要來挑戰小朋友挑食界的五大魔王啦!!!!青椒.茄子.苦瓜.芥藍菜.山藥~ <b>蔡桃貴</b>還吃得下去嗎? ▻ 訂閱蔡阿 ...</div></div></div></div></li><li class="collapsable"><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="PtT2j5Ca0cM" data-visibility-tracking="CEwQ3DAYBCITCN-Qza2--OUCFUUrWAodoswBVkDDo-uE-dG96j4="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEwQ3DAYBCITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=PtT2j5Ca0cM"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/PtT2j5Ca0cM/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLBDJ8EvPs67ObQYgOrt1hNinS6Bng" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">11:17</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="PtT2j5Ca0cM" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-484497" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CEwQ3DAYBCITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=PtT2j5Ca0cM" rel="spf-prefetch" title="【蔡阿嘎新手爸媽日記#44】讓嘎妹照顧蔡桃貴一整天！貴貴大崩潰啦！">【蔡阿嘎新手爸媽日記#44】讓嘎妹照顧蔡桃貴一整天！貴貴大崩潰啦！</a><span class="accessible-description" id="description-id-484497"> - 播放時間：11:17。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEwQ3DAYBCITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>1 個月前</li><li>觀看次數：1,664,473次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">很多人都想看如果讓嘎妹照顧蔡桃貴一整天，會發生什麼事? 超棒的企劃!!!!我跟二伯可以休息一天耶~哈哈哈，看看是嘎妹崩潰? 還是貴 ...</div></div></div></div></li><li class="collapsable"><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="CsvO6usBqaw" data-visibility-tracking="CEsQ3DAYBSITCN-Qza2--OUCFUUrWAodoswBVkCs04bYrt3z5Qo="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEsQ3DAYBSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=CsvO6usBqaw"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/CsvO6usBqaw/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLAyoFyg3GcNzOAg-lxPDWq6GoD1zA" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">1:00</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="CsvO6usBqaw" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-289306" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CEsQ3DAYBSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=CsvO6usBqaw" rel="spf-prefetch" title="【蔡桃貴】會從1數到10了！奶音超可愛！（1Y2M21D)">【蔡桃貴】會從1數到10了！奶音超可愛！（1Y2M21D)</a><span class="accessible-description" id="description-id-289306"> - 播放時間：1:00。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEsQ3DAYBSITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtSSBoYwD-yEkhvNdH0Zy3w">蔡桃貴 蔡阿嘎二伯's Family</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>1 個月前</li><li>觀看次數：668,340次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">訂閱<b>蔡桃貴</b>：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/TsaiGray2018" rel="nofollow" target="_blank" title="https://pse.is/TsaiGray2018">https://pse.is/TsaiGray2018</a> ▻ <b>蔡桃貴</b>Instagram：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayIG" rel="nofollow" target="_blank" title="https://pse.is/GrayIG">https://pse.is/GrayIG</a> ▻ <b>蔡桃貴</b>FaceBook：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayFB" rel="nofollow" target="_blank" title="https://pse.is/GrayFB">https://pse.is/GrayFB</a> ...</div></div></div></div></li><li class="collapsable"><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="AXi20HHd_6w" data-visibility-tracking="CEoQ3DAYBiITCN-Qza2--OUCFUUrWAodoswBVkCs__eOh9qtvAE="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEoQ3DAYBiITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=AXi20HHd_6w"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/AXi20HHd_6w/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLB-20qWjqRvZdD9nbEwqQtcrLq_Bw" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">11:15</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="AXi20HHd_6w" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-957130" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CEoQ3DAYBiITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=AXi20HHd_6w" rel="spf-prefetch" title="一家四口看新房子｜仁義重劃區欣世代｜彼得爸與蘇珊媽">一家四口看新房子｜仁義重劃區欣世代｜彼得爸與蘇珊媽</a><span class="accessible-description" id="description-id-957130"> - 播放時間：11:15。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEoQ3DAYBiITCN-Qza2--OUCFUUrWAodoswBVg" href="/user/pet10262001">彼得爸與蘇珊媽</a> <span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" title="已驗證"></span></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>3 天前</li><li>觀看次數：122,794次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">訂閱我們的頻道⬇︎ <a class="yt-uix-redirect-link" dir="ltr" href="https://goo.gl/AZvZXq" rel="nofollow" target="_blank" title="https://goo.gl/AZvZXq">https://goo.gl/AZvZXq</a> 更多彼得爸與蘇珊媽育兒日記⬇︎ ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list"><li class="yt-badge-item"><span class="yt-badge">新影片</span></li></ul> </div></div></div></div></li><li class="collapsable"><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="_Acf2NKNOyQ" data-visibility-tracking="CEkQ3DAYByITCN-Qza2--OUCFUUrWAodoswBVkCk9rSUjfvHg_wB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEkQ3DAYByITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=_Acf2NKNOyQ"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/_Acf2NKNOyQ/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLAhwbXKfd7l-RJG3DWkcORz2S5LlA" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">7:30</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="_Acf2NKNOyQ" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-967661" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CEkQ3DAYByITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=_Acf2NKNOyQ" rel="spf-prefetch" title="YouTuber最恩愛CP！夫妻送命題大考驗！(蔡阿嘎X Yahoo奇摩購物中心)">YouTuber最恩愛CP！夫妻送命題大考驗！(蔡阿嘎X Yahoo奇摩購物中心)</a><span class="accessible-description" id="description-id-967661"> - 播放時間：7:30。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEkQ3DAYByITCN-Qza2--OUCFUUrWAodoswBVg" href="/user/kyoko38">蔡阿嘎</a> <span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" title="已驗證"></span></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>2 週前</li><li>觀看次數：655,000次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">Yahoo雙11瘋搶5折神券▻ <a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/LZ6HS" rel="nofollow" target="_blank" title="https://pse.is/LZ6HS">https://pse.is/LZ6HS</a> 阿嘎粉絲專屬【全站滿799折100】折價券送完為止▻ <a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/KHFL6" rel="nofollow" target="_blank" title="https://pse.is/KHFL6">https://pse.is/KHFL6</a> ▻ 訂閱蔡阿 ...</div></div></div></div></li><li class="collapsable"><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="5XlYIzjF4NA" data-visibility-tracking="CEgQ3DAYCCITCN-Qza2--OUCFUUrWAodoswBVkDQwZfGs4TWvOUB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEgQ3DAYCCITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=5XlYIzjF4NA"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/5XlYIzjF4NA/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLAD3RPVTUQ79wzYoLPEL_p5xYN5xA" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">7:34</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="5XlYIzjF4NA" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-917057" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CEgQ3DAYCCITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=5XlYIzjF4NA" rel="spf-prefetch" title="食尚玩嘎#35：蔡阿嘎 帶大家去「蠟筆小新故鄉」春日部尋根，小新一家人真的住這裡耶！ 【蔡阿嘎】">食尚玩嘎#35：蔡阿嘎 帶大家去「蠟筆小新故鄉」春日部尋根，小新一家人真的住這裡耶！ 【蔡阿嘎】</a><span class="accessible-description" id="description-id-917057"> - 播放時間：7:34。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEgQ3DAYCCITCN-Qza2--OUCFUUrWAodoswBVg" href="/user/kyoko38">蔡阿嘎</a> <span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" title="已驗證"></span></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>1 週前</li><li>觀看次數：311,898次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">【得獎名單已公佈於置頂留言】 訂閱蔡阿嘎三個頻道+底下留言，抽出7樣蠟筆小新禮物，送給大家!!!!(詳細抽獎方法如下) ▻ 訂閱蔡阿 ...</div></div></div></div></li><li class="collapsable"><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="xhQ8RLW-6CI" data-visibility-tracking="CEcQ3DAYCSITCN-Qza2--OUCFUUrWAodoswBVkCi0Puty4iPisYB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEcQ3DAYCSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=xhQ8RLW-6CI"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/xhQ8RLW-6CI/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLDp5vpP_0Mj7QqOik4KM9xvzw2Hiw" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">15:07</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="xhQ8RLW-6CI" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-740526" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CEcQ3DAYCSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=xhQ8RLW-6CI" rel="spf-prefetch" title="【蔡阿嘎新手爸媽日記#38】爸爸自己帶小孩一整天，蔡桃貴崩潰啦！">【蔡阿嘎新手爸媽日記#38】爸爸自己帶小孩一整天，蔡桃貴崩潰啦！</a><span class="accessible-description" id="description-id-740526"> - 播放時間：15:07。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEcQ3DAYCSITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>6 個月前</li><li>觀看次數：2,253,539次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr"><b>蔡桃貴</b>一天都在幹嘛? 母親節讓二伯好好放個假，蔡阿嘎來挑戰一日奶爸啦!!!!! ▻ 訂閱蔡阿嘎Life頻道：<a class="yt-uix-redirect-link" dir="ltr" href="http://pics.ee/AGaLife" rel="nofollow" target="_blank" title="http://pics.ee/AGaLife">http://pics.ee/AGaLife</a> ▻ 訂閱 ...</div></div></div></div></li></ul><div class="yt-uix-expander-head yt-uix-expander-collapsed-body"><button aria-label="顯示完整資訊" class="yt-uix-button yt-uix-button-size-default yt-uix-button-link yt-uix-button-empty yt-uix-button-has-icon no-icon-markup vertical-shelf-expander yt-uix-tooltip" onclick=";return false;" title="顯示完整資訊" type="button"></button></div></div></div></div><div class="feed-item-dismissal-notices"></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="mWR6xfOb5pE" data-visibility-tracking="CEQQ3DAYDSITCN-Qza2--OUCFUUrWAodoswBVkCRze-c39iespkB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEQQ3DAYDSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=mWR6xfOb5pE"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/mWR6xfOb5pE/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLDFOpqP28Bo64pPzVOjOscefZj2eA" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">5:07</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="mWR6xfOb5pE" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-854262" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CEQQ3DAYDSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=mWR6xfOb5pE" rel="spf-prefetch" title="【蔡桃貴成長日記#39】萬聖節小丑裝vs恐龍裝！哪一件比較可愛？">【蔡桃貴成長日記#39】萬聖節小丑裝vs恐龍裝！哪一件比較可愛？</a><span class="accessible-description" id="description-id-854262"> - 播放時間：5:07。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEQQ3DAYDSITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>2 週前</li><li>觀看次數：533,760次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">耶耶~ 今年的萬聖節是應景的小丑裝跟恐龍裝，大家覺得哪一件比較可愛?? ▻ 訂閱蔡阿嘎Life頻道：<a class="yt-uix-redirect-link" dir="ltr" href="http://pics.ee/AGaLife" rel="nofollow" target="_blank" title="http://pics.ee/AGaLife">http://pics.ee/AGaLife</a> ▻ 訂閱 ...</div></div></div></div></li>
+<li><div class="search-refinements"><h3>與「<b>蔡桃貴</b>」相關的搜尋</h3><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEMQsDoYACITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4%E5%BB%9F%E6%9C%83">蔡桃貴廟會</a></div><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CD0QsDoYBiITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4%E9%85%8D%E9%9F%B3">蔡桃貴配音</a></div><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEIQsDoYASITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4%E6%89%93%E9%87%9D">蔡桃貴打針</a></div><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDwQsDoYByITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4%E6%8E%A5%E9%BE%8D">蔡桃貴接龍</a></div><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEEQsDoYAiITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4%E8%B5%B0%E8%B7%AF">蔡桃貴走路</a></div><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDsQsDoYCCITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E9%98%BF%E5%98%8E%E7%95%A2%E6%9B%B8%E7%9B%A1">蔡阿嘎畢書盡</a></div><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CEAQsDoYAyITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4%E9%96%8B%E7%90%83">蔡桃貴開球</a></div><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDoQsDoYCSITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E9%98%BF%E5%98%8E%E6%96%B0%E6%89%8B%E7%88%B8">蔡阿嘎新手爸</a></div><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CD8QsDoYBCITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4%E4%B8%83%E6%9C%88%E5%8D%8A">蔡桃貴七月半</a></div><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDkQsDoYCiITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4%E8%B7%91%E5%BB%9F%E6%9C%83">蔡桃貴跑廟會</a></div><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CD4QsDoYBSITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4%E9%A0%BB%E9%81%93">蔡桃貴頻道</a></div><div class="search-refinement"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDgQsDoYCyITCN-Qza2--OUCFUUrWAodoswBVg" href="/results?search_query=%E4%BD%A0%E6%9C%80%E5%96%9C%E6%AD%A1%E5%93%AA%E4%B8%80%E5%80%8B%E5%91%A2">你最喜歡哪一個呢</a></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="RAZLMuaxjUI" data-visibility-tracking="CDYQ3DAYDyITCN-Qza2--OUCFUUrWAodoswBVkDCmsa1ruaSg0Q="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDYQ3DAYDyITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=RAZLMuaxjUI"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/RAZLMuaxjUI/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLDC875FrOIbWhRomMk8KMR7f1lYng" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">4:40</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="RAZLMuaxjUI" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-288867" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CDYQ3DAYDyITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=RAZLMuaxjUI" rel="spf-prefetch" title="【蔡桃貴成長日記#34】被蔡英文總統召見，去總統官邸撒野啦！蔡阿嘎在一旁嚇死！">【蔡桃貴成長日記#34】被蔡英文總統召見，去總統官邸撒野啦！蔡阿嘎在一旁嚇死！</a><span class="accessible-description" id="description-id-288867"> - 播放時間：4:40。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDYQ3DAYDyITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>2 個月前</li><li>觀看次數：1,627,561次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr"><b>蔡桃貴</b>被總統召見~進總統官邸撒野啦!!! 完全就沒在怕，當自己家一樣~ 我們快嚇死了!!!哈哈哈▻ 訂閱蔡阿嘎Life ...</div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="U-7HcjgrrwI" data-visibility-tracking="CDUQ3DAYECITCN-Qza2--OUCFUUrWAodoswBVkCC3q7Bo-6x91M="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDUQ3DAYECITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=U-7HcjgrrwI"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/U-7HcjgrrwI/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLDxvrSSN7FR99ErJDUW56HlQEBnTA" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">4:28</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="U-7HcjgrrwI" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-11843" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CDUQ3DAYECITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=U-7HcjgrrwI" rel="spf-prefetch" title="蔡桃貴預言：是弟弟還是妹妹？大家一起猜猜看！【蔡阿嘎 二伯's 二寶日記】">蔡桃貴預言：是弟弟還是妹妹？大家一起猜猜看！【蔡阿嘎 二伯's 二寶日記】</a><span class="accessible-description" id="description-id-11843"> - 播放時間：4:28。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDUQ3DAYECITCN-Qza2--OUCFUUrWAodoswBVg" href="/user/kyoko38">蔡阿嘎</a> <span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" title="已驗證"></span></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>3 週前</li><li>觀看次數：755,724次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">聽說大寶預言第二胎性別非常準，就讓桃貴大師來預言看看吧!!!! 哈哈~大家一起來猜猜看第二胎是桃貴妹? 還是桃貴弟? 下個月就可以 ...</div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="-ayNnsiUMrI" data-visibility-tracking="CDQQ3DAYESITCN-Qza2--OUCFUUrWAodoswBVkCy5dDE7LOj1vkB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDQQ3DAYESITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=-ayNnsiUMrI"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/-ayNnsiUMrI/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLC7oqT6w954PA_q8qvLod_mTrusLA" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">4:10</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="-ayNnsiUMrI" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-839471" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CDQQ3DAYESITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=-ayNnsiUMrI" rel="spf-prefetch" title="【10萬點閱捐10萬公益#50】綜藝實驗室100秒不NG！遊戲哪有那麼難！(蔡阿嘎X3M菜瓜布馬桶刷)">【10萬點閱捐10萬公益#50】綜藝實驗室100秒不NG！遊戲哪有那麼難！(蔡阿嘎X3M菜瓜布馬桶刷)</a><span class="accessible-description" id="description-id-839471"> - 播放時間：4:10。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDQQ3DAYESITCN-Qza2--OUCFUUrWAodoswBVg" href="/user/kyoko38">蔡阿嘎</a> <span class="yt-uix-tooltip yt-channel-title-icon-verified yt-sprite" title="已驗證"></span></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>2 天前</li><li>觀看次數：223,739次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">影片超過10萬點閱，我們就會捐出10萬元公益金，來幫助受虐及弱勢兒童們喔！) ▻ 訂閱蔡阿嘎Life頻道：<a class="yt-uix-redirect-link" dir="ltr" href="http://pics.ee/AGaLife" rel="nofollow" target="_blank" title="http://pics.ee/AGaLife">http://pics.ee/AGaLife</a> ...</div><div class="yt-lockup-badges"><ul class="yt-badge-list"><li class="yt-badge-item"><span class="yt-badge">新影片</span></li></ul> </div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="22nlQpv_F1E" data-visibility-tracking="CDMQ3DAYEiITCN-Qza2--OUCFUUrWAodoswBVkDRrvzfqaj5tNsB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDMQ3DAYEiITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=22nlQpv_F1E"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/22nlQpv_F1E/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLAoQziP2sqZUvwYVxTIKwYjOEph0A" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">0:54</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="22nlQpv_F1E" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-870968" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CDMQ3DAYEiITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=22nlQpv_F1E" rel="spf-prefetch" title="【蔡桃貴】撒嬌大師！聽到「塞乃」就倒頭靠肩膀 (1Y3M15D)">【蔡桃貴】撒嬌大師！聽到「塞乃」就倒頭靠肩膀 (1Y3M15D)</a><span class="accessible-description" id="description-id-870968"> - 播放時間：0:54。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDMQ3DAYEiITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtSSBoYwD-yEkhvNdH0Zy3w">蔡桃貴 蔡阿嘎二伯's Family</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>2 週前</li><li>觀看次數：502,932次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">訂閱<b>蔡桃貴</b>：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/TsaiGray2018" rel="nofollow" target="_blank" title="https://pse.is/TsaiGray2018">https://pse.is/TsaiGray2018</a> ▻ <b>蔡桃貴</b>Instagram：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayIG" rel="nofollow" target="_blank" title="https://pse.is/GrayIG">https://pse.is/GrayIG</a> ▻ <b>蔡桃貴</b>FaceBook：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayFB" rel="nofollow" target="_blank" title="https://pse.is/GrayFB">https://pse.is/GrayFB</a> ...</div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="D5hNDtoTU1Y" data-visibility-tracking="CDIQ3DAYEyITCN-Qza2--OUCFUUrWAodoswBVkDWps3Q7aGTzA8="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDIQ3DAYEyITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=D5hNDtoTU1Y"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/D5hNDtoTU1Y/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLBiFHke_QZXeKhLlXHwm6_mayL4mA" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">1:59</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="D5hNDtoTU1Y" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-557522" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CDIQ3DAYEyITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=D5hNDtoTU1Y" rel="spf-prefetch" title="【蔡桃貴】半夜三點起床，想去公園玩！(1Y2M16D)">【蔡桃貴】半夜三點起床，想去公園玩！(1Y2M16D)</a><span class="accessible-description" id="description-id-557522"> - 播放時間：1:59。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDIQ3DAYEyITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtSSBoYwD-yEkhvNdH0Zy3w">蔡桃貴 蔡阿嘎二伯's Family</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>1 個月前</li><li>觀看次數：1,003,421次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">訂閱<b>蔡桃貴</b>：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/TsaiGray2018" rel="nofollow" target="_blank" title="https://pse.is/TsaiGray2018">https://pse.is/TsaiGray2018</a> ▻ <b>蔡桃貴</b>Instagram：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayIG" rel="nofollow" target="_blank" title="https://pse.is/GrayIG">https://pse.is/GrayIG</a> ▻ <b>蔡桃貴</b>FaceBook：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayFB" rel="nofollow" target="_blank" title="https://pse.is/GrayFB">https://pse.is/GrayFB</a> ...</div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="SYRvCxcSs_Q" data-visibility-tracking="CDEQ3DAYFCITCN-Qza2--OUCFUUrWAodoswBVkD058q4seGbwkk="><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDEQ3DAYFCITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=SYRvCxcSs_Q"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/SYRvCxcSs_Q/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLDKIoR6etO8OC1TBoecyUreki7d9Q" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">2:03</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="SYRvCxcSs_Q" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-565752" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CDEQ3DAYFCITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=SYRvCxcSs_Q" rel="spf-prefetch" title="【蔡桃貴】跟阿母去游泳池游泳！(1Y1M12D)">【蔡桃貴】跟阿母去游泳池游泳！(1Y1M12D)</a><span class="accessible-description" id="description-id-565752"> - 播放時間：2:03。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDEQ3DAYFCITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtSSBoYwD-yEkhvNdH0Zy3w">蔡桃貴 蔡阿嘎二伯's Family</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>4 週前</li><li>觀看次數：491,950次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr">訂閱<b>蔡桃貴</b>：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/TsaiGray2018" rel="nofollow" target="_blank" title="https://pse.is/TsaiGray2018">https://pse.is/TsaiGray2018</a> ▻ <b>蔡桃貴</b>Instagram：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayIG" rel="nofollow" target="_blank" title="https://pse.is/GrayIG">https://pse.is/GrayIG</a> ▻ <b>蔡桃貴</b>FaceBook：<a class="yt-uix-redirect-link" dir="ltr" href="https://pse.is/GrayFB" rel="nofollow" target="_blank" title="https://pse.is/GrayFB">https://pse.is/GrayFB</a> ...</div></div></div></div></li>
+<li><div class="yt-lockup yt-lockup-tile yt-lockup-video vve-check clearfix" data-context-item-id="mrsCCJ3ddwE" data-visibility-tracking="CDAQ3DAYFSITCN-Qza2--OUCFUUrWAodoswBVkCB7vXuicHA3ZoB"><div class="yt-lockup-dismissable yt-uix-tile"><div class="yt-lockup-thumbnail contains-addto"><a aria-hidden="true" class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDAQ3DAYFSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" href="/watch?v=mrsCCJ3ddwE"><div class="yt-thumb video-thumb"><span class="yt-thumb-simple">
+<img alt="" data-thumb="https://i.ytimg.com/vi/mrsCCJ3ddwE/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&amp;rs=AOn4CLBvUa3464WLcyAItef6ncMVetKYWg" data-ytimg="1" height="138" onload=";window.__ytRIL &amp;&amp; __ytRIL(this)" src="/yts/img/pixel-vfl3z5WfW.gif" width="246"/>
+<span aria-hidden="true" class="video-time">7:32</span></span></div></a> <span class="thumb-menu dark-overflow-action-menu video-actions">
+</span>
+<button class="yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip" data-button-menu-id="shared-addto-watch-later-login" data-video-ids="mrsCCJ3ddwE" onclick=";return false;" role="button" title="稍後觀看" type="button"><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</div><div class="yt-lockup-content"><h3 class="yt-lockup-title"><a aria-describedby="description-id-758946" class="yt-uix-tile-link yt-ui-ellipsis yt-ui-ellipsis-2 yt-uix-sessionlink spf-link" data-sessionlink="itct=CDAQ3DAYFSITCN-Qza2--OUCFUUrWAodoswBVjIGc2VhcmNoUgnolKHmoYPosrQ" dir="ltr" href="/watch?v=mrsCCJ3ddwE" rel="spf-prefetch" title="【蔡桃貴成長日記#36】第一次坐飛機就 挑戰14小時，有坐到崩潰嗎？">【蔡桃貴成長日記#36】第一次坐飛機就 挑戰14小時，有坐到崩潰嗎？</a><span class="accessible-description" id="description-id-758946"> - 播放時間：7:32。</span></h3><div class="yt-lockup-byline"><a class="yt-uix-sessionlink spf-link" data-sessionlink="itct=CDAQ3DAYFSITCN-Qza2--OUCFUUrWAodoswBVg" href="/channel/UCtcaZ5FUqaNXGX6xhpiGPQA">蔡阿嘎Life</a></div><div class="yt-lockup-meta"><ul class="yt-lockup-meta-info"><li>1 個月前</li><li>觀看次數：1,288,482次</li></ul></div><div class="yt-lockup-description yt-ui-ellipsis yt-ui-ellipsis-2" dir="ltr"><b>蔡桃貴</b>第一次出國搭飛機，就挑戰大魔王~美國的14小時!!!!在飛機上會坐到崩潰嗎? 哈哈哈哈▻ 訂閱蔡阿嘎Life ...</div></div></div></div></li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="branded-page-box search-pager spf-link">
+<button aria-label="前往第 1 頁" class="yt-uix-button yt-uix-button-size-default yt-uix-button-default vve-check" data-redirect-url="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;amp;sp=SACYAQHqAwA%253D" data-sessionlink="itct=CAwQnKQBGAAiEwjfkM2tvvjlAhVFK1gKHaLMAVY" data-visibility-tracking="CAwQnKQBGAAiEwjfkM2tvvjlAhVFK1gKHaLMAVY" disabled="True" onclick=";return false;" type="button"><span class="yt-uix-button-content">1</span></button>
+<a aria-label="前往第 2 頁" class="yt-uix-button vve-check yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="itct=CAsQnKQBGAEiEwjfkM2tvvjlAhVFK1gKHaLMAVY" data-visibility-tracking="CAsQnKQBGAEiEwjfkM2tvvjlAhVFK1gKHaLMAVY" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=SBSYAQHqAwA%253D"><span class="yt-uix-button-content">2</span></a>
+<a aria-label="前往第 3 頁" class="yt-uix-button vve-check yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="itct=CAoQnKQBGAIiEwjfkM2tvvjlAhVFK1gKHaLMAVY" data-visibility-tracking="CAoQnKQBGAIiEwjfkM2tvvjlAhVFK1gKHaLMAVY" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=SCiYAQHqAwA%253D"><span class="yt-uix-button-content">3</span></a>
+<a aria-label="前往第 4 頁" class="yt-uix-button vve-check yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="itct=CAkQnKQBGAMiEwjfkM2tvvjlAhVFK1gKHaLMAVY" data-visibility-tracking="CAkQnKQBGAMiEwjfkM2tvvjlAhVFK1gKHaLMAVY" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=SDyYAQHqAwA%253D"><span class="yt-uix-button-content">4</span></a>
+<a aria-label="前往第 5 頁" class="yt-uix-button vve-check yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="itct=CAgQnKQBGAQiEwjfkM2tvvjlAhVFK1gKHaLMAVY" data-visibility-tracking="CAgQnKQBGAQiEwjfkM2tvvjlAhVFK1gKHaLMAVY" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=SFCYAQHqAwA%253D"><span class="yt-uix-button-content">5</span></a>
+<a aria-label="前往第 6 頁" class="yt-uix-button vve-check yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="itct=CAcQnKQBGAUiEwjfkM2tvvjlAhVFK1gKHaLMAVY" data-visibility-tracking="CAcQnKQBGAUiEwjfkM2tvvjlAhVFK1gKHaLMAVY" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=SGSYAQHqAwA%253D"><span class="yt-uix-button-content">6</span></a>
+<a aria-label="前往第 7 頁" class="yt-uix-button vve-check yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="itct=CAYQnKQBGAYiEwjfkM2tvvjlAhVFK1gKHaLMAVY" data-visibility-tracking="CAYQnKQBGAYiEwjfkM2tvvjlAhVFK1gKHaLMAVY" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=SHiYAQHqAwA%253D"><span class="yt-uix-button-content">7</span></a>
+<a aria-label="前往第 2 頁" class="yt-uix-button vve-check yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="itct=CAUQnKQBGAciEwjfkM2tvvjlAhVFK1gKHaLMAVY" data-visibility-tracking="CAUQnKQBGAciEwjfkM2tvvjlAhVFK1gKHaLMAVY" href="/results?search_query=%E8%94%A1%E6%A1%83%E8%B2%B4&amp;sp=SBSYAQHqAwA%253D"><span class="yt-uix-button-content">下一頁 »</span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="branded-page-v2-secondary-col">
+<div id="search-secondary-col-contents">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div></div></div> <div class="yt-base-gutter force-layer" id="footer-container"><div id="footer"><div id="footer-main"><div id="footer-logo"><a class="yt-uix-sessionlink" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0&amp;ved=CAIQpmEiEwjQicutvvjlAhVIQvUFHSRiA9Yo9CQ" href="/" id="footer-logo-link" title="YouTube 首頁"><span class="footer-logo-icon yt-sprite"></span></a></div> <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+<li>
+<button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" data-button-toggle="true" data-picker-key="language" data-picker-position="footer" id="yt-picker-language-button" onclick=";return false;" type="button"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-language yt-sprite"></span></span><span class="yt-uix-button-content"> <span class="yt-picker-button-label">
+語言：
+  </span>
+  中文
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</li>
+<li>
+<button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" data-button-toggle="true" data-picker-key="country" data-picker-position="footer" id="yt-picker-country-button" onclick=";return false;" type="button"><span class="yt-uix-button-content"> <span class="yt-picker-button-label">
+位置：
+  </span>
+  台灣
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</li>
+<li>
+<button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" data-button-toggle="true" data-picker-key="safetymode" data-picker-position="footer" id="yt-picker-safetymode-button" onclick=";return false;" type="button"><span class="yt-uix-button-content"> <span class="yt-picker-button-label">
+嚴格篩選模式：
+  </span>
+關閉
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+</li>
+</ul>
+<a class="yt-uix-button footer-history yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" data-sessionlink="ei=zwjVXZDmKMiE1d8PpMSNsA0" href="/feed/history"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-history yt-sprite"></span></span><span class="yt-uix-button-content">觀看記錄</span></a> <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon yt-uix-button-reverse yt-google-help-link inq-no-click" data-feedback-product-id="59" data-ghelp-anchor="google-help" data-ghelp-tracking-param="" data-load-chat-support="true" id="google-help" onclick=";return false;" type="button"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-questionmark yt-sprite"></span></span><span class="yt-uix-button-content">說明
+</span></button>
+<div class="yt-picker" id="yt-picker-language-footer" style="display: none">
+<p class="yt-spinner">
+<span class="yt-spinner-img yt-sprite" title="正在載入圖示"></span>
+<span class="yt-spinner-message">
+載入中…
+    </span>
+</p>
+</div>
+<div class="yt-picker" id="yt-picker-country-footer" style="display: none">
+<p class="yt-spinner">
+<span class="yt-spinner-img yt-sprite" title="正在載入圖示"></span>
+<span class="yt-spinner-message">
+載入中…
+    </span>
+</p>
+</div>
+<div class="yt-picker" id="yt-picker-safetymode-footer" style="display: none">
+<p class="yt-spinner">
+<span class="yt-spinner-img yt-sprite" title="正在載入圖示"></span>
+<span class="yt-spinner-message">
+載入中…
+    </span>
+</p>
+</div>
+</div><div id="footer-links"><ul id="footer-links-primary"> <li><a href="//www.youtube.com/yt/about/zh-TW/">關於</a></li>
+<li><a href="//www.youtube.com/yt/press/zh-TW/">新聞中心</a></li>
+<li><a href="//www.youtube.com/yt/copyright/zh-TW/">版權</a></li>
+<li><a href="//www.youtube.com/yt/creators/">創作者</a></li>
+<li><a href="//www.youtube.com/yt/advertise/">廣告</a></li>
+<li><a href="//www.youtube.com/yt/dev/zh-TW/">開發人員</a></li>
+</ul><ul id="footer-links-secondary"> <li><a href="/t/terms">條款</a></li>
+<li><a href="https://www.google.com.tw/intl/zh-TW/policies/privacy/">隱私權</a></li>
+<li><a href="//www.youtube.com/yt/policyandsafety/zh-TW/">
+政策與安全性
+  </a></li>
+<li><a class="reportbug" href="//support.google.com/youtube/?hl=zh-TW" onclick="return yt.www.feedback.start(59);">提供意見</a></li>
+<li>
+<a href="/testtube">測試新功能</a>
+</li>
+<li></li>
+</ul></div></div></div>
+<div class="yt-dialog hid" id="feed-privacy-lb">
+<div class="yt-dialog-base">
+<span class="yt-dialog-align"></span>
+<div class="yt-dialog-fg" role="dialog">
+<div class="yt-dialog-fg-content">
+<div class="yt-dialog-loading">
+<div class="yt-dialog-waiting-content">
+<p class="yt-spinner">
+<span class="yt-spinner-img yt-sprite" title="正在載入圖示"></span>
+<span class="yt-spinner-message">
+載入中…
+    </span>
+</p>
+</div>
+</div>
+<div class="yt-dialog-content">
+<div id="feed-privacy-dialog">
+</div>
+</div>
+<div class="yt-dialog-working">
+<div class="yt-dialog-working-overlay"></div>
+<div class="yt-dialog-working-bubble">
+<div class="yt-dialog-waiting-content">
+<p class="yt-spinner">
+<span class="yt-spinner-img yt-sprite" title="正在載入圖示"></span>
+<span class="yt-spinner-message">
+        處理中...
+    </span>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="yt-dialog-focus-trap" tabindex="0"></div>
+</div>
+</div>
+</div>
+<div class="hid" id="hidden-component-template-wrapper"> <div class="hid" id="shared-addto-watch-later-login">
+      如要將這部影片新增至「稍後觀看」播放清單，請<a class="sign-in-link" href="https://accounts.google.com/ServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26action_handle_signin%3Dtrue%26next%3D%252Fresults%253Fsearch_query%253D%2525E8%252594%2525A1%2525E6%2525A1%252583%2525E8%2525B2%2525B4%26hl%3Dzh-TW%26feature%3Dplaylist&amp;passive=true&amp;service=youtube&amp;hl=zh-TW&amp;uilel=3">登入帳戶</a>
+</div>
+<div class="yt-ui-menu-content" id="yt-uix-videoactionmenu-menu"> <div class="hide-on-create-pl-panel">
+<h3>
+新增至
+    </h3>
+</div>
+<div class="add-to-widget">
+<p class="yt-spinner">
+<span class="yt-spinner-img yt-sprite" title="正在載入圖示"></span>
+<span class="yt-spinner-message">
+        正在載入播放清單...
+    </span>
+</p>
+</div>
+</div></div> <script>var ytspf = ytspf || {};ytspf.enabled = true;ytspf.config = {'reload-identifier': 'spfreload'};ytspf.config['request-headers'] = {'X-YouTube-Ad-Signals': {toString: function() {return (window['yt'] && yt['ads_'] && yt.ads_['signals_'] &&yt.ads_.signals_['getAdSignalsString']) ?yt.ads_.signals_.getAdSignalsString() :'';}},'X-YouTube-Identity-Token': null};ytspf.config['experimental-request-headers'] = ytspf.config['request-headers'];ytspf.config['cache-max'] = 50;ytspf.config['navigate-limit'] = 50;ytspf.config['navigate-lifetime'] = 64800000;</script>
+<script name="spf/spf" src="/yts/jsbin/spf-vflqCgDoF/spf.js" type="text/javascript"></script>
+<script name="www/base" src="/yts/jsbin/www-en_US-vfl7eMZ5v/base.js"></script>
+<script>spf.script.path({'www/': '/yts/jsbin/www-en_US-vfl7eMZ5v/'});var ytdepmap = {"www/base": null, "www/common": "www/base", "www/angular_base": "www/common", "www/channels_accountupload": "www/common", "www/channels": "www/common", "www/dashboard": "www/common", "www/downloadreports": "www/common", "www/experiments": "www/common", "www/feed": "www/common", "www/legomap": "www/common", "www/promo_join_network": "www/common", "www/results_harlemshake": "www/common", "www/results": "www/common", "www/results_starwars": "www/common", "www/subscriptionmanager": "www/common", "www/unlimited": "www/common", "www/watch": "www/common", "www/ypc_bootstrap": "www/common", "www/ypc_core": "www/common", "www/channels_edit": "www/channels", "www/live_dashboard": "www/angular_base", "www/videomanager": "www/angular_base", "www/watch_autoplayrenderer": "www/watch", "www/watch_edit": "www/watch", "www/watch_editor": "www/watch", "www/watch_promos": "www/watch", "www/watch_speedyg": "www/watch", "www/watch_transcript": "www/watch", "www/watch_videoshelf": "www/watch", "www/ct_advancedsearch": "www/videomanager", "www/my_videos": "www/videomanager", "www/$weak$": ["www/angular_base", "www/base", "www/channels_accountupload", "www/channels_edit", "www/channels", "www/common", "www/ct_advancedsearch", "www/dashboard", "www/downloadreports", "www/experiments", "www/feed", "www/legomap", "www/live_dashboard", "www/my_videos", "www/promo_join_network", "www/results_harlemshake", "www/results", "www/results_starwars", "www/subscriptionmanager", "www/unlimited", "www/videomanager", "www/watch_autoplayrenderer", "www/watch_edit", "www/watch_editor", "www/watch", "www/watch_promos", "www/watch_speedyg", "www/watch_transcript", "www/watch_videoshelf", "www/ypc_bootstrap", "www/ypc_core"]};spf.script.declare(ytdepmap);</script><script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>
+<script>
+        yt.setConfig({
+      'JS_PAGE_MODULES': [
+        'www/results',
+        'www/ypc_bootstrap',
+        'www/feed',
+        ''
+      ],
+
+      'TIMING_REPORT_ON_UNLOAD': true
+    });
+
+
+
+      yt.setConfig({
+    'GUIDED_HELP_LOCALE': "zh_TW",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+
+  </script>
+<script>yt.setConfig({INNERTUBE_CONTEXT_CLIENT_NAME: 1,INNERTUBE_API_VERSION: "v1",INNERTUBE_CONTEXT_CLIENT_VERSION: "1.20191119.09.00",GAPI_HINT_PARAMS: "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.MEVzAPCznC8.O\/d=1\/ct=zgms\/rs=AHpOoo_iL6i3Fuh5d3bLKRBazYvzpKjkxg\/m=__features__",INNERTUBE_API_KEY: "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",'VISITOR_DATA': "CgsxZHZyOFJMTkkwRSjPkdTuBQ%3D%3D",'DELEGATED_SESSION_ID': null,'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_LOCALE': "zh_TW",'INNERTUBE_CONTEXT_HL': "zh-TW",'INNERTUBE_CONTEXT_GL': "TW",'XHR_APIARY_HOST': "youtubei.youtube.com"});yt.setConfig({'PAGE_NAME': "results",'LOGGED_IN': false,'SESSION_INDEX': null,'VALID_SESSION_TEMPDATA_DOMAINS': ["www.youtube.com","gaming.youtube.com"],'PARENT_TRACKING_PARAMS': "",'FORMATS_FILE_SIZE_JS': ["%s B","%s KB","%s MB","%s GB","%s TB"],'ONE_PICK_URL': "",'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/yts\/jsbin\/www-pageframe-vfl2b6CyU\/www-pageframe.js",'GAPI_LOADER_URL': "\/yts\/jsbin\/www-gapi-loader-vflxmWGoK\/www-gapi-loader.js",'JS_COMMON_MODULE': "\/yts\/jsbin\/www-en_US-vfl7eMZ5v\/common.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/yts\/cssbin\/www-pageframedelayloaded-vflZQkKIB.css",'EXPERIMENT_FLAGS': {"ignore_empty_xhr":true,"desktop_notification_set_title_bar":true,"custom_csi_timeline_use_gel":true,"desktop_polymer_video_masthead_always_use_responsive_iframe":true,"enable_ypc_spinners":true,"enable_docked_chat_messages":true,"web_gel_timeout_cap":true,"kevlar_guide_refresh":true,"enable_premium_voluntary_pause":true,"web_system_health_fraction":0.01,"desktop_pyv_on_watch_missing_params":true,"live_chat_increased_min_height":true,"service_worker_enabled":true,"gfeedback_for_signed_out_users_enabled":true,"log_window_onerror_fraction":0.1,"desktop_action_companion_wta_support":true,"web_logging_max_batch":100,"log_web_meta_interval_ms":0,"desktop_notification_high_priority_ignore_push":true,"log_vis_on_tab_change":true,"service_worker_push_logged_out_prompt_watches":-1,"web_always_load_chat_support":true,"web_gel_debounce_ms":10000,"app_settings_snapshot_min_time_between_snapshots_hours":24,"botguard_periodic_refresh":true,"autoescape_tempdata_url":true,"service_worker_push_force_notification_prompt_tag":"1","show_account_link_ari_double_dialog":true,"service_worker_push_prompt_delay_microseconds":3888000000000,"service_worker_push_prompt_cap":-1,"disable_legacy_desktop_remote_queue_watch":true,"cancel_pending_navs":true,"service_worker_push_watch_page_prompt":true,"use_watch_fragments2":true,"autoplay_pause_by_lact_sampling_fraction":0.0,"desktop_polymer_video_masthead_session_tempdata_ttl":30,"desktop_pyv_on_watch_override_lact":true,"prefetch_comments_ms_after_video":0,"consent_url_override":"","warm_load_nav_start_web":true,"enable_ve_tracker_key":true,"disable_legacy_desktop_remote_queue":true,"web_use_beacon_api_for_ad_click_server_pings":true,"desktop_shopping_companion_wta_support":true,"service_worker_push_enabled":true,"desktop_videowall_companion_wta_support":true,"live_chat_unicode_emoji_json_url":"https:\/\/www.gstatic.com\/youtube\/img\/emojis\/emojis-svg-1.json","no_sub_count_on_sub_button":true,"enable_watch_next_pause_autoplay_lact":true,"enable_read_more_format_decoration":true,"service_worker_scope":"\/","retry_web_logging_batches":true,"desktop_image_companion_wta_support":true,"update_super_chat_moderation":true,"watch_next_pause_autoplay_lact_sec":4500,"pass_biscotti_id_in_header_ajax":true,"autoplay_pause_by_lact_sec":0,"service_worker_push_home_page_prompt":true,"mdx_enable_privacy_disclosure_ui":true,"desktop_polymer":true},'HIGH_CONTRAST_MODE_CSS': "\/yts\/cssbin\/www-highcontrastmode-vfl2pKdoC.css",'PREFETCH_CSS_RESOURCES' : ["\/yts\/cssbin\/player-vflqwou5n\/www-player.css"],'PREFETCH_JS_RESOURCES': ["\/yts\/jsbin\/www-pagead-id-vflCp417S\/www-pagead-id.js","\/yts\/jsbin\/player_ias-vflss95Jx\/zh_TW\/base.js"],'PREFETCH_LINKS': false,'PREFETCH_LINKS_MAX': 1,'PREFETCH_AUTOPLAY': false,'PREFETCH_AUTOPLAY_TIME': 0,'PREFETCH_AUTONAV': false,'PREBUFFER_MAX': 1,'PREBUFFER_LINKS': false,'PREBUFFER_AUTOPLAY': false,'PREBUFFER_AUTONAV': false,'WATCH_LATER_BUTTON': "\n\n  \u003cbutton class=\"yt-uix-button yt-uix-button-size-small yt-uix-button-default yt-uix-button-empty yt-uix-button-has-icon no-icon-markup addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button-sign-in yt-uix-tooltip\" type=\"button\" onclick=\";return false;\" title=\"稍後觀看\" role=\"button\" data-video-ids=\"__VIDEO_ID__\" data-button-menu-id=\"shared-addto-watch-later-login\"\u003e\u003cspan class=\"yt-uix-button-arrow yt-sprite\"\u003e\u003c\/span\u003e\u003c\/button\u003e\n",'WATCH_QUEUE_BUTTON': "",'WATCH_QUEUE_MENU': "  \u003cspan class=\"thumb-menu dark-overflow-action-menu video-actions\"\u003e\n  \u003c\/span\u003e\n",'SAFETY_MODE_PENDING': false,'I18N_PLURAL_RULES': function(n) { return (n == 1) ? 'one' : 'other'; },'ZWIEBACK_PING_URLS': ["https:\/\/www.google.com.tw\/pagead\/lvz?pg=results\u0026req_ts=1574242511\u0026evtid=ADszL7N4loRMwaDr1WrHjdxxclnY_ioQE8FmbHSLDWgdAQ7gGNRdmDRLDk5p421QIEOoMIbH9KB-0wb9nkTARekF0n-X8tGl0g\u0026sigh=ADRnf4ZAeSVa__AoHYCic024XRe4tn3VsA","https:\/\/www.google.com\/pagead\/lvz?pg=results\u0026req_ts=1574242511\u0026evtid=ADszL7MsyJTYOBkR8vjpubvnAXppqlce5Ng79NYBWdVw5i3Q8qJypxfiQLRiwxSAvH73WTqTURr0fGYuEABVPGlmq5swojLe_Q\u0026sigh=ADRnf4Yi2IidJOWsTKczYPagpMS13CQ3wQ"],'LOCAL_DATE_TIME_CONFIG': {"formatShortDate":"y年M月d日","shortMonths":["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"months":["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"firstDayOfWeek":0,"formatLongDateOnly":"y年M月d日","weekendRange":[6,5],"formatLongDate":"y年M月d日 H:mm","formatWeekdayShortTime":"EE H:mm","amPms":null,"weekdays":["星期日","星期一","星期二","星期三","星期四","星期五","星期六"],"firstWeekCutoffDay":3,"shortWeekdays":["週日","週一","週二","週三","週四","週五","週六"],"dateFormats":["y年M月d日 H:mm","y年M月d日","y年M月d日","y年M月d日"],"formatShortTime":"H:mm"},'PAGE_CL': 281197113,'PAGE_BUILD_LABEL': "youtube.ytfe.desktop_20191118_9_RC0",'VARIANTS_CHECKSUM': "b833f57bff5de09c78ff3d0f2a0cceed",'CLIENT_PROTOCOL': "HTTP\/1.1",'CLIENT_TRANSPORT': "tcp",'MDX_ENABLE_CASTV2': true,'MDX_ENABLE_QUEUE': true,'FEEDBACK_BUCKET_ID': "Search",'FEEDBACK_LOCALE_LANGUAGE': "zh-TW",'FEEDBACK_LOCALE_EXTRAS': {"experiments":"23700266,23701297,23701882,23707876,23709359,23709532,23710313,23710863,23718617,23722367,23725261,23725678,23727873,23735347,23736849,23736982,23737288,23742989,23744176,23746939,23753073,23755417,23755966,23756150,23757575,23759349,23762090,23762106,23765007,23766458,23767294,23767521,23768776,23768780,23772997,23778038,23782105,23783094,23784261,23785483,23785890,23788124,23788837,23789385,23790315,23790586,23790726,23793228,23794214,23794340,23794463,23794811,23795268,23797973,23802891,23804042,23804281,23808852,23810148,23811985,23812813,23814475,23814553,23815572,23816087,23816681,23817291,23817402,23817778,23818896,23820549,23820664,23821054,23823845,23824088,23825089,23827061,23827263,23827926,23828140,23829721,23830484,23832002,23832835,23833107,23833663,23834232,23835675,23835863,23835906,23835979,23836063,23836115,23836145,23836248,23836268,23836554,23836587,23836746,23837040,23837772,23837993,23838363,23839438,23839597,23839800,23839884,23840272,23841122,23841211,23841299,23841429,23841635,23842011,23842096,23842233,23842630,23842638,23842894,23842986,23843508,23843528,23844454,23844833,23845119,23845928,23846026,23846599,23846638,23846648,23846715,23847217,23847934,23847941,23848370,23848630,23848795,23849258,23850154,23850763,23851672,23851876,23851920,23853115,23853456,23853784,23853786,23853866,23854062,23854126,23854801,23855489,23855494,23855684,23855726,23855912,23855955,23856019,23856102,23856163,23856164,23856168,23856366,23856474,23856593,23856652,23856757,23856798,23856867,23857014,23857045,23857237,23857309,23857363,23857453,23857493,23857617,23857619,23857638,23857664,23857674,23857693,23857702,23857732,23857851,23857935,23857949,23857970,23857990,23858002,23858139,23858320,23858666,23858786,23858817,23859025,23859095,23859205,23859235,23859326,23859328,23859338,23859341,23859443,23859594,23859803,23859864,23860056,23860249,23860374,24630140,24630466,9449243,9459798,9469934,9471235,9471955,9473372,9473383,9473397,9479456,9487037,9489266","logged_in":false,"accept_language":null}});   yt.setConfig({
+    'GUIDED_HELP_LOCALE': "zh_TW",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+yt.setConfig('SPF_SEARCH_BOX', true);yt.setMsg({'ADDTO_CREATE_NEW_PLAYLIST': "建立新的播放清單\n",'ADDTO_CREATE_PLAYLIST_DYNAMIC_TITLE': "  $dynamic_title_placeholder (新建)\n",'ADDTO_WATCH_LATER': "Watch later",'ADDTO_WATCH_LATER_ADDED': "已新增",'ADDTO_WATCH_LATER_ERROR': "錯誤",'ADDTO_WATCH_QUEUE': "Watch Queue",'ADDTO_WATCH_QUEUE_ADDED': "已新增",'ADDTO_WATCH_QUEUE_ERROR': "錯誤",'ADDTO_TV_QUEUE': "Queue",'MASTHEAD_NOTIFICATIONS_LABEL': {"other": "# \u5247\u672a\u8b80\u7684\u901a\u77e5\u3002", "case0": "\u6c92\u6709\u672a\u8b80\u7684\u901a\u77e5\u3002", "case1": "1 \u5247\u672a\u8b80\u7684\u901a\u77e5\u3002"},'MASTHEAD_NOTIFICATIONS_COUNT_99PLUS': "99+",'MDX_AUTOPLAY_OFF': '已停用自動播放功能','MDX_AUTOPLAY_ON': '已啟用自動播放功能'});  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/yts\/cssbin\/www-feedprivacydialog-vfltb5-JE.css");
+  yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+yt.setConfig({'SBOX_JS_URL': "\/yts\/jsbin\/www-searchbox-vfl-JfD-o\/www-searchbox.js",'SBOX_SETTINGS': {"PQ":"蔡桃貴","SESSION_INDEX":null,"HAS_ON_SCREEN_KEYBOARD":false,"PSUGGEST_TOKEN":null,"REQUEST_LANGUAGE":"zh-TW","SUGG_EXP_ID":"bape,postfix.prt=0x800000000000000-0_0x20000000-1_0x80000000-2_0_0x200000-3,cfro=1","IS_FUSION":false,"REQUEST_DOMAIN":"tw"},'SBOX_LABELS': {"SUGGESTION_DISMISSED_LABEL":"已移除查詢建議","SUGGESTION_DISMISS_LABEL":"移除"}});  yt.setConfig({
+    'YPC_LOADER_JS': "\/yts\/jsbin\/www-ypc-vflRrqcEg\/www-ypc.js",
+    'YPC_LOADER_CSS': "\/yts\/cssbin\/www-ypc-vflx_KJhA.css",
+    'YPC_SIGNIN_URL': "https:\/\/accounts.google.com\/ServiceLogin?continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26action_handle_signin%3Dtrue%26next%3D%252F%26hl%3Dzh-TW\u0026passive=true\u0026service=youtube\u0026hl=zh-TW\u0026uilel=3",
+    'DBLCLK_ADVERTISER_ID': "2542116",
+    'DBLCLK_YPC_ACTIVITY_GROUP': "youtu444",
+    'SUBSCRIPTION_URL': "\/subscription_ajax",
+    'YPC_SWITCH_URL': "\/signin?skip_identity_prompt=True\u0026action_handle_signin=true\u0026next=%2F\u0026feature=purchases",
+    'YPC_GB_LANGUAGE': "zh_TW",
+    'YPC_MB_URL': "https:\/\/payments.youtube.com\/payments\/v4\/js\/integrator.js?ss=md",
+    'YPC_TRANSACTION_URL': "\/transaction_handler",
+    'YPC_SUBSCRIPTION_URL': "\/ypc_subscription_ajax",
+    'YPC_POST_PURCHASE_URL': "\/ypc_post_purchase_ajax",
+    'YTR_FAMILY_CREATION_URL': "https:\/\/families.google.com\/webcreation?usegapi=1",
+    'YTO_GTM_DATA': {'event': 'purchased', 'purchaseStatus': 'success'},
+    'YTO_GTM_1_BUTTON_CLICK_DATA': {'event': 'landingButtonClick', 'buttonPosition': '1'},
+    'YTO_GTM_2_BUTTON_CLICK_DATA': {'event': 'landingButtonClick', 'buttonPosition': '2'}
+  });
+  yt.setMsg({
+    'YPC_OFFER_OVERLAY': "  \n",
+    'YPC_UNSUBSCRIBE_OVERLAY': "  \n"
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "search_results");
+ytcsi.info('st', 339);ytcfg.set({"TIMING_INFO":{"c":"WEB","yt_ad":"1","cver":"1.20191119.09.00","GetSearch_rid":"0x126b8d6ef652f549","yt_lt":"cold","yt_li":"0"},"CSI_SERVICE_NAME":"youtube"});;ytcfg.set({"TIMING_ACTION":"results","TIMING_WAIT":["ol","cpt"],"TIMING_AFT_KEYS":["ol"],"CSI_VIEWPORT":true});;  yt.setConfig({
+      'XSRF_TOKEN': "QUFFLUhqbW9kcGg1bzlaWlJZT0xHdFNQTmZSSm50TGhid3xBQ3Jtc0ttdS03RXRYQWh0Zl96UlVFd3oxeVdzQVhyWUItbFc4ZUdoTFdwUUlJZ1ZFMUQzNmZ0YkdpOUlsLUYxeGxXYXE1RlhDVUp1NkJOZnZIWk05X1F6Z3hYRFVTLXQ1MlFGUzMtampwbUdBOWxUcDE4ODhQa0h1dDRzTkRCZkxwV1V4M1QtQVBvUWFyTUE0V21DZ3Zsc0x2Vmk3QUUwS3c=",
+      'XSRF_FIELD_NAME': "session_token",
+
+      'XSRF_REDIRECT_TOKEN': "7Kh1WYctMyxM3KKFd8BkQkH3i6V8MTU3NDMyODkxMkAxNTc0MjQyNTEy"  });
+yt.setConfig('ID_TOKEN', null);window.ytcfg.set('SERVICE_WORKER_KILLSWITCH', false);  yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);
+if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>
+</body></html>
