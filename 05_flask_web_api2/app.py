@@ -45,7 +45,7 @@ posts_data = [
 
 @app.route('/')
 def index():
-  return render_template('index.html', posts=posts_data)
+  return render_template('index.html')
 
 @app.route('/api/posts')
 def posts():
